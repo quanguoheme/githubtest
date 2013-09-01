@@ -1,0 +1,382 @@
+Aug 27 00:32:36.687: vmx| Log for VMware Workstation pid=38540 version=6.5.1 build=build-126130 option=Release
+Aug 27 00:32:36.687: vmx| Host codepage=windows-936 encoding=GBK
+Aug 27 00:32:36.687: vmx| Hostname=QXSDM0LVIO0M3ZA
+Aug 27 00:32:36.718: vmx| IP=192.168.0.34
+Aug 27 00:32:36.718: vmx| IP=10.20.3.245
+Aug 27 00:32:36.718: vmx| IP=192.168.56.1
+Aug 27 00:32:36.718: vmx| IP=192.168.138.1
+Aug 27 00:32:36.718: vmx| IP=192.168.70.1
+Aug 27 00:32:36.750: vmx| Command line: "E:\program-file\box\vmware-vmx.exe" "-#" "product=1;name=VMware Workstation;version=6.5.1;buildnumber=126130;licensename=VMware Workstation for Win32;licenseversion=6.0 build-126130;" "-@" "pipe=\\.\pipe\vmxb6b544ffcbe35532;" "F:\Ubuntu.vmx"
+Aug 27 00:32:36.750: vmx| Msg_SetLocale: HostLocale=GBK UserLocale=NULL
+Aug 27 00:32:36.812: vmx| UI Connecting to pipe '\\.\pipe\vmxb6b544ffcbe35532' with user '(null)'
+Aug 27 00:32:36.828: vmx| Transitioned vmx/execState/val to poweredOff
+Aug 27 00:32:36.843: vmx| HD: host version is 5.1.2600
+Aug 27 00:32:36.843: vmx| HD: addr 804f631d
+Aug 27 00:32:36.843: vmx| HD: 80568e7c, 8055b280
+Aug 27 00:32:36.843: vmx| VMMon_GetkHzEstimate: Calculated 1599990 kHz
+Aug 27 00:32:36.843: vmx| VMMon_RememberkHzEstimate: Calculated 1600020 kHz
+Aug 27 00:32:36.843: vmx| CPU # 0 TSC = 28372068704704
+Aug 27 00:32:36.843: vmx| CPU # 1 TSC = 28372068704672
+Aug 27 00:32:36.843: vmx| TSC delta 32
+Aug 27 00:32:36.843: vmx| PTSC: RefClockToTSC 1599990000Hz -> 1600020000Hz
+Aug 27 00:32:36.843: vmx| PTSC: RefClockToTSC ((x * 2147523913) >> 31)
+Aug 27 00:32:36.843: vmx| PTSC: using TSC
+Aug 27 00:32:36.843: vmx| CPUID[0] vendor: GenuntelineI
+Aug 27 00:32:36.843: vmx| CPUID[0]   name: Intel(R) Pentium(R) Dual  CPU  E2140  @ 1.60GHz
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000000, 0: 0x0000000a 0x756e6547 0x6c65746e 0x49656e69
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000001, 0: 0x000006fd 0x00020800 0x0000e39d 0xbfebfbff
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000220
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000006, 0: 0x00000001 0x00000002 0x00000001 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Aug 27 00:32:36.843: vmx| CPUID[0] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 80000002, 0: 0x65746e49 0x2952286c 0x6e655020 0x6d756974
+Aug 27 00:32:36.843: vmx| CPUID[0] level 80000003, 0: 0x20295228 0x6c617544 0x50432020 0x45202055
+Aug 27 00:32:36.843: vmx| CPUID[0] level 80000004, 0: 0x30343132 0x20402020 0x30362e31 0x007a4847
+Aug 27 00:32:36.843: vmx| CPUID[0] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[0] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] vendor: GenuntelineI
+Aug 27 00:32:36.843: vmx| CPUID[1]   name: Intel(R) Pentium(R) Dual  CPU  E2140  @ 1.60GHz
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000000, 0: 0x0000000a 0x756e6547 0x6c65746e 0x49656e69
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000001, 0: 0x000006fd 0x01020800 0x0000e39d 0xbfebfbff
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000220
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000006, 0: 0x00000001 0x00000002 0x00000001 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Aug 27 00:32:36.843: vmx| CPUID[1] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 80000002, 0: 0x65746e49 0x2952286c 0x6e655020 0x6d756974
+Aug 27 00:32:36.843: vmx| CPUID[1] level 80000003, 0: 0x20295228 0x6c617544 0x50432020 0x45202055
+Aug 27 00:32:36.843: vmx| CPUID[1] level 80000004, 0: 0x30343132 0x20402020 0x30362e31 0x007a4847
+Aug 27 00:32:36.843: vmx| CPUID[1] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID[1] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID vendor: GenuntelineI
+Aug 27 00:32:36.843: vmx| hostCPUID   name: Intel(R) Pentium(R) Dual  CPU  E2140  @ 1.60GHz
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000000, 0: 0x0000000a 0x756e6547 0x6c65746e 0x49656e69
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000001, 0: 0x000006fd 0x00020800 0x0000e39d 0xbfebfbff
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000220
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000001 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Aug 27 00:32:36.843: vmx| hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Aug 27 00:32:36.843: vmx| hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x6e655020 0x6d756974
+Aug 27 00:32:36.843: vmx| hostCPUID level 80000003, 0: 0x20295228 0x6c617544 0x50432020 0x45202055
+Aug 27 00:32:36.843: vmx| hostCPUID level 80000004, 0: 0x30343132 0x20402020 0x30362e31 0x007a4847
+Aug 27 00:32:36.843: vmx| hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| hostCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Aug 27 00:32:36.843: vmx| CPUID Maximum Physical Address Bits supported across all CPUs: 36
+Aug 27 00:32:36.890: vmx| Host ACPI: can't find SRAT
+Aug 27 00:32:36.890: vmx| Host: SRAT tables not found in memory
+Aug 27 00:32:37.078: vmx| ACL_InitCapabilities: current IPC thread
+Aug 27 00:32:37.078: vmx| ACL_InitCapabilities: done
+Aug 27 00:32:37.078: vmx| changing directory to F:\.
+Aug 27 00:32:37.078: vmx| Config file: F:\Ubuntu.vmx
+Aug 27 00:32:39.015: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 27 00:32:39.078: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset
+Aug 27 00:32:39.078: vmx| PowerOn
+Aug 27 00:32:39.078: vmx| VMX_PowerOn: VMX build 126130, UI build 126130
+Aug 27 00:32:39.109: vmx| Host: WIN32 highest NUMA node 0
+Aug 27 00:32:39.109: vmx| Host: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+Aug 27 00:32:39.125: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 27 00:32:39.140: vmx| HOSTINFO: Seeing Intel CPU, numCoresPerCPU 2 numThreadsPerCore 1.
+Aug 27 00:32:39.140: vmx| HOSTINFO: This machine has 1 physical CPUS, 2 total cores, and 2 logical CPUs.
+Aug 27 00:32:39.140: vmx| HOST Windows version 5.1, build 2600, platform 2, "Service Pack 3", SMP
+Aug 27 00:32:39.140: vmx| DICT --- USER PREFERENCES
+Aug 27 00:32:39.140: vmx| DICT       pref.eula.0.appName = VMware Workstation
+Aug 27 00:32:39.140: vmx| DICT   pref.eula.0.buildNumber = 126130
+Aug 27 00:32:39.140: vmx| DICT     pref.mruDest0.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT  pref.mruDest0.destString = 
+Aug 27 00:32:39.140: vmx| DICT        pref.mruDest0.user = 
+Aug 27 00:32:39.140: vmx| DICT     pref.mruDest1.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT  pref.mruDest1.destString = 
+Aug 27 00:32:39.140: vmx| DICT        pref.mruDest1.user = 
+Aug 27 00:32:39.140: vmx| DICT     pref.mruDest2.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT  pref.mruDest2.destString = 
+Aug 27 00:32:39.140: vmx| DICT        pref.mruDest2.user = 
+Aug 27 00:32:39.140: vmx| DICT     pref.mruDest3.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT  pref.mruDest3.destString = 
+Aug 27 00:32:39.140: vmx| DICT        pref.mruDest3.user = 
+Aug 27 00:32:39.140: vmx| DICT     pref.mruDest4.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT  pref.mruDest4.destString = 
+Aug 27 00:32:39.140: vmx| DICT        pref.mruDest4.user = 
+Aug 27 00:32:39.140: vmx| DICT     pref.mruDest5.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT  pref.mruDest5.destString = 
+Aug 27 00:32:39.140: vmx| DICT        pref.mruDest5.user = 
+Aug 27 00:32:39.140: vmx| DICT     pref.mruDest6.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT  pref.mruDest6.destString = 
+Aug 27 00:32:39.140: vmx| DICT        pref.mruDest6.user = 
+Aug 27 00:32:39.140: vmx| DICT     pref.mruDest7.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT  pref.mruDest7.destString = 
+Aug 27 00:32:39.140: vmx| DICT        pref.mruDest7.user = 
+Aug 27 00:32:39.140: vmx| DICT      pref.mruATS0.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT    pref.mruATS0.atsString = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS0.domain = 
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS0.user = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS0.secure = FALSE
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS0.port = 0
+Aug 27 00:32:39.140: vmx| DICT      pref.mruATS1.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT    pref.mruATS1.atsString = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS1.domain = 
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS1.user = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS1.secure = FALSE
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS1.port = 0
+Aug 27 00:32:39.140: vmx| DICT      pref.mruATS2.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT    pref.mruATS2.atsString = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS2.domain = 
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS2.user = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS2.secure = FALSE
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS2.port = 0
+Aug 27 00:32:39.140: vmx| DICT      pref.mruATS3.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT    pref.mruATS3.atsString = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS3.domain = 
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS3.user = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS3.secure = FALSE
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS3.port = 0
+Aug 27 00:32:39.140: vmx| DICT      pref.mruATS4.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT    pref.mruATS4.atsString = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS4.domain = 
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS4.user = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS4.secure = FALSE
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS4.port = 0
+Aug 27 00:32:39.140: vmx| DICT      pref.mruATS5.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT    pref.mruATS5.atsString = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS5.domain = 
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS5.user = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS5.secure = FALSE
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS5.port = 0
+Aug 27 00:32:39.140: vmx| DICT      pref.mruATS6.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT    pref.mruATS6.atsString = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS6.domain = 
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS6.user = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS6.secure = FALSE
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS6.port = 0
+Aug 27 00:32:39.140: vmx| DICT      pref.mruATS7.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT    pref.mruATS7.atsString = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS7.domain = 
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS7.user = 
+Aug 27 00:32:39.140: vmx| DICT       pref.mruATS7.secure = FALSE
+Aug 27 00:32:39.140: vmx| DICT         pref.mruATS7.port = 0
+Aug 27 00:32:39.140: vmx| DICT   pref.registrationViewed = FALSE
+Aug 27 00:32:39.140: vmx| DICT       pref.usbDev.maxDevs = 0
+Aug 27 00:32:39.140: vmx| DICT pref.keyboardAndMouse.maxProfiles = 0
+Aug 27 00:32:39.140: vmx| DICT       webUpdate.failCount = 0
+Aug 27 00:32:39.140: vmx| DICT   webUpdate.lastCheckTime = 1377534728
+Aug 27 00:32:39.140: vmx| DICT             vmWizard.mode = custom
+Aug 27 00:32:39.140: vmx| DICT         vmWizard.guestKey = ubuntu
+Aug 27 00:32:39.140: vmx| DICT vmWizard.mruISO0.isoLocation = D:\company\download\ubuntu-10.04.3-desktop-i386.iso
+Aug 27 00:32:39.140: vmx| DICT vmWizard.installMediaType = iso
+Aug 27 00:32:39.140: vmx| DICT vmWizard.mruISO1.isoLocation = D:\company\download\ubuntu-12.04.2-desktop-i386.iso
+Aug 27 00:32:39.140: vmx| DICT  hint.vmui.showAllUSBDevs = FALSE
+Aug 27 00:32:39.140: vmx| DICT          pref.view.navBar = TRUE
+Aug 27 00:32:39.140: vmx| DICT    pref.view.navBar.width = 167
+Aug 27 00:32:39.140: vmx| DICT   pref.view.toolbars.list = _SEP_,POWER_OFF,SUSPEND,POWER_ON,RESET,POLICIES,PKG_SETTINGS,NEW_PKG,POCKET_ACE,PREVIEW,SNAPSHOT,REVERT,SNAPSHOT_MANAGER,FAVORITES,QUICK_SWITCH,FULL_SCREEN,UNITY,SUMMARY,APPLIANCE,CONSOLE,QUICK_MINIMIZE,FILE_EXIT,INSTANCE_DETAILS,INSTANCE_REACT,INSTANCE_DEACT,REPLAY_PLAY,REPLAY_RECORD
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.currentObj.path = /vm/#b6b544ffcbe35532/
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.currentObj.type = vm
+Aug 27 00:32:39.140: vmx| DICT pref.ws.openedObj0.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj0.name = Home
+Aug 27 00:32:39.140: vmx| DICT pref.ws.openedObj1.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj1.type = vm
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj1.path = 
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj1.file = 
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj1.name = Home
+Aug 27 00:32:39.140: vmx| DICT  pref.ws.openedObj.maxNum = 2
+Aug 27 00:32:39.140: vmx| DICT       pref.placement.left = -19
+Aug 27 00:32:39.140: vmx| DICT        pref.placement.top = -8
+Aug 27 00:32:39.140: vmx| DICT      pref.placement.right = 1017
+Aug 27 00:32:39.140: vmx| DICT     pref.placement.bottom = 772
+Aug 27 00:32:39.140: vmx| DICT          pref.tip.startup = FALSE
+Aug 27 00:32:39.140: vmx| DICT            pref.tip.index = 1
+Aug 27 00:32:39.140: vmx| DICT webUpdate.updatesAvailable = TRUE
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.menu.position.ix = 0
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.menu.position.newLine = TRUE
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.power.position.ix = 5
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.power.position.newLine = TRUE
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.power.position.length = 100
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.snapshot.position.ix = 1
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.snapshot.position.length = 75
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.acem.position.ix = 2
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.acem.position.length = 123
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.view.position.ix = 3
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.view.position.length = 197
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.replay.position.ix = 4
+Aug 27 00:32:39.140: vmx| DICT pref.view.toolbars.replay.position.length = 1106
+Aug 27 00:32:39.140: vmx| DICT pref.ws.openedObj2.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj2.type = home
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj2.path = /vm/#b6b544ffcbe35532/
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj2.file = F:\Ubuntu.vmx
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj2.name = Home
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj3.type = vm
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj3.path = /vm/#b6b544ffcbe35532/
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj3.file = F:\Ubuntu.vmx
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj3.name = Ubuntu
+Aug 27 00:32:39.140: vmx| DICT hint.cui.toolsInfoBar.Suppressible = FALSE
+Aug 27 00:32:39.140: vmx| DICT pref.ws.openedObj3.present = FALSE
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj4.type = vm
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj4.path = /vm/#7887b9881274bab2/
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj4.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj4.name = Ubuntu
+Aug 27 00:32:39.140: vmx| DICT pref.autoFitGuestToWindow = TRUE
+Aug 27 00:32:39.140: vmx| DICT pref.snapshotManager.left = 250
+Aug 27 00:32:39.140: vmx| DICT  pref.snapshotManager.top = 64
+Aug 27 00:32:39.140: vmx| DICT pref.snapshotManager.right = 859
+Aug 27 00:32:39.140: vmx| DICT pref.snapshotManager.bottom = 578
+Aug 27 00:32:39.140: vmx| DICT  pref.sharedFolder.maxNum = 3
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder0.enabled = TRUE
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder0.vmPath = /vm/#7887b9881274bab2/
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder0.guestName = temp
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder0.hostPath = F:\temp
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder1.enabled = TRUE
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder1.vmPath = /vm/#7887b9881274bab2/
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder1.guestName = prgram-back
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder1.hostPath = E:\prgram-back
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj5.type = vm
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj5.path = /vm/#7887b9881274bab2/
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj5.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 27 00:32:39.140: vmx| DICT   pref.ws.openedObj5.name = Ubuntu
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder2.enabled = FALSE
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder2.vmPath = /vm/#b6b544ffcbe35532/
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder2.guestName = temp
+Aug 27 00:32:39.140: vmx| DICT pref.sharedFolder2.hostPath = F:\temp
+Aug 27 00:32:39.140: vmx| DICT --- USER DEFAULTS
+Aug 27 00:32:39.140: vmx| DICT --- HOST DEFAULTS
+Aug 27 00:32:39.140: vmx| DICT --- SITE DEFAULTS
+Aug 27 00:32:39.140: vmx| DICT --- COMMAND LINE
+Aug 27 00:32:39.140: vmx| DICT             gui.available = TRUE
+Aug 27 00:32:39.140: vmx| DICT --- CONFIGURATION
+Aug 27 00:32:39.140: vmx| DICT            config.version = 8
+Aug 27 00:32:39.140: vmx| DICT         virtualHW.version = 7
+Aug 27 00:32:39.140: vmx| DICT                  numvcpus = 2
+Aug 27 00:32:39.140: vmx| DICT             scsi0.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT          scsi0.virtualDev = lsilogic
+Aug 27 00:32:39.140: vmx| DICT                   memsize = 512
+Aug 27 00:32:39.140: vmx| DICT           scsi0:0.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT          scsi0:0.fileName = Ubuntu.vmdk
+Aug 27 00:32:39.140: vmx| DICT            ide1:0.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT           ide1:0.fileName = D:\company\download\ubuntu-10.04.3-desktop-i386.iso
+Aug 27 00:32:39.140: vmx| DICT         ide1:0.deviceType = cdrom-image
+Aug 27 00:32:39.140: vmx| DICT        floppy0.autodetect = TRUE
+Aug 27 00:32:39.140: vmx| DICT         ethernet0.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT  ethernet0.connectionType = nat
+Aug 27 00:32:39.140: vmx| DICT   ethernet0.wakeOnPcktRcv = FALSE
+Aug 27 00:32:39.140: vmx| DICT               usb.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT              ehci.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT             sound.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT            sound.fileName = -1
+Aug 27 00:32:39.140: vmx| DICT          sound.autodetect = TRUE
+Aug 27 00:32:39.140: vmx| DICT              mks.enable3d = TRUE
+Aug 27 00:32:39.140: vmx| DICT        pciBridge0.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT        pciBridge4.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT     pciBridge4.virtualDev = pcieRootPort
+Aug 27 00:32:39.140: vmx| DICT      pciBridge4.functions = 8
+Aug 27 00:32:39.140: vmx| DICT        pciBridge5.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT     pciBridge5.virtualDev = pcieRootPort
+Aug 27 00:32:39.140: vmx| DICT      pciBridge5.functions = 8
+Aug 27 00:32:39.140: vmx| DICT        pciBridge6.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT     pciBridge6.virtualDev = pcieRootPort
+Aug 27 00:32:39.140: vmx| DICT      pciBridge6.functions = 8
+Aug 27 00:32:39.140: vmx| DICT        pciBridge7.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT     pciBridge7.virtualDev = pcieRootPort
+Aug 27 00:32:39.140: vmx| DICT      pciBridge7.functions = 8
+Aug 27 00:32:39.140: vmx| DICT             vmci0.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT    roamingVM.exitBehavior = go
+Aug 27 00:32:39.140: vmx| DICT               displayName = Ubuntu
+Aug 27 00:32:39.140: vmx| DICT                   guestOS = ubuntu
+Aug 27 00:32:39.140: vmx| DICT                     nvram = Ubuntu.nvram
+Aug 27 00:32:39.140: vmx| DICT virtualHW.productCompatibility = hosted
+Aug 27 00:32:39.140: vmx| DICT     ft.secondary0.enabled = TRUE
+Aug 27 00:32:39.140: vmx| DICT      tools.upgrade.policy = useGlobal
+Aug 27 00:32:39.140: vmx| DICT        extendedConfigFile = Ubuntu.vmxf
+Aug 27 00:32:39.140: vmx| DICT          floppy0.fileName = A:
+Aug 27 00:32:39.140: vmx| DICT        checkpoint.vmState = 
+Aug 27 00:32:39.140: vmx| DICT     ide1:0.startConnected = TRUE
+Aug 27 00:32:39.140: vmx| DICT     ethernet0.addressType = generated
+Aug 27 00:32:39.140: vmx| DICT             uuid.location = 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 27 00:32:39.140: vmx| DICT                 uuid.bios = 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 27 00:32:39.140: vmx| DICT    debugStub.linuxOffsets = 0x0,0xffffffff,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0
+Aug 27 00:32:39.140: vmx| DICT              scsi0:0.redo = 
+Aug 27 00:32:39.140: vmx| DICT   usb.autoConnect.device0 = 
+Aug 27 00:32:39.140: vmx| DICT  vmotion.checkpointFBSize = 134217728
+Aug 27 00:32:39.140: vmx| DICT  pciBridge0.pciSlotNumber = 17
+Aug 27 00:32:39.140: vmx| DICT  pciBridge4.pciSlotNumber = 21
+Aug 27 00:32:39.140: vmx| DICT  pciBridge5.pciSlotNumber = 22
+Aug 27 00:32:39.140: vmx| DICT  pciBridge6.pciSlotNumber = 23
+Aug 27 00:32:39.140: vmx| DICT  pciBridge7.pciSlotNumber = 24
+Aug 27 00:32:39.140: vmx| DICT       scsi0.pciSlotNumber = 16
+Aug 27 00:32:39.140: vmx| DICT         usb.pciSlotNumber = 32
+Aug 27 00:32:39.140: vmx| DICT   ethernet0.pciSlotNumber = 33
+Aug 27 00:32:39.140: vmx| DICT       sound.pciSlotNumber = 34
+Aug 27 00:32:39.140: vmx| DICT        ehci.pciSlotNumber = 35
+Aug 27 00:32:39.140: vmx| DICT       vmci0.pciSlotNumber = 36
+Aug 27 00:32:39.140: vmx| DICT ethernet0.generatedAddress = 00:0c:29:fe:82:17
+Aug 27 00:32:39.140: vmx| DICT ethernet0.generatedAddressOffset = 0
+Aug 27 00:32:39.140: vmx| DICT                  vmci0.id = 452887063
+Aug 27 00:32:39.140: vmx| DICT       tools.remindInstall = FALSE
+Aug 27 00:32:39.140: vmx| DICT            tools.syncTime = FALSE
+Aug 27 00:32:39.140: vmx| DICT isolation.tools.hgfs.disable = FALSE
+Aug 27 00:32:39.140: vmx| DICT       sharedFolder.maxNum = 1
+Aug 27 00:32:39.140: vmx| DICT     sharedFolder0.present = TRUE
+Aug 27 00:32:39.140: vmx| DICT     sharedFolder0.enabled = TRUE
+Aug 27 00:32:39.140: vmx| DICT  sharedFolder0.readAccess = TRUE
+Aug 27 00:32:39.140: vmx| DICT sharedFolder0.writeAccess = TRUE
+Aug 27 00:32:39.140: vmx| DICT    sharedFolder0.hostPath = F:\temp
+Aug 27 00:32:39.140: vmx| DICT   sharedFolder0.guestName = temp
+Aug 27 00:32:39.140: vmx| DICT  sharedFolder0.expiration = never
+Aug 27 00:32:39.140: vmx| DICT --- USER DEFAULTS
+Aug 27 00:32:39.140: vmx| DICT --- HOST DEFAULTS
+Aug 27 00:32:39.140: vmx| DICT --- SITE DEFAULTS
+Aug 27 00:32:39.140: vmx| DICT --- GLOBAL SETTINGS
+Aug 27 00:32:39.140: vmx| hostCpuFeatures = 0x404001fc
+Aug 27 00:32:39.140: vmx| hostNumPerfCounters = 2
+Aug 27 00:32:39.140: vmx| CPU0: PMC: IA32, CORE 2 [c:0 f:1 e:1]
+Aug 27 00:32:39.140: vmx| CPU1: PMC: IA32, CORE 2 [c:0 f:1 e:1]
+Aug 27 00:32:39.140: vmx| MONITOR MODE: allowed modes          : BT
+Aug 27 00:32:39.140: vmx| MONITOR MODE: user requested modes   : BT HV HWMMU
+Aug 27 00:32:39.140: vmx| MONITOR MODE: guestOS preferred modes: HWMMU BT HV
+Aug 27 00:32:39.140: vmx| MONITOR MODE: filtered list          : BT
+Aug 27 00:32:39.140: vmx| HV Settings: virtual exec = 'software'; virtual mmu = 'software'
+Aug 27 00:32:39.187: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 27 00:32:39.187: vmx| Host display topology 1024x768.
+Aug 27 00:32:39.187: vmx| SVGA using 2360x1770.
+Aug 27 00:32:39.187: vmx| WSSCAN: reserved mem (in MB) min=32 max=832 recommended=832
+Aug 27 00:32:39.187: vmx| WSSCAN: used rec mem (in MB) 832
+Aug 27 00:32:39.187: vmx| PSHARE: scan rate min 16 max 400
+Aug 27 00:32:39.187: vmx| WSSCAN: Overhead 165174 paged 27158 nonpaged 32768 maxFBSize
+Aug 27 00:32:39.187: vmx| WSSCAN 1 1 92682 100874 212992 122677 50 0
+Aug 27 00:32:39.187: vmx| PSHARE: scan rate min 16 max 400
+Aug 27 00:32:39.312: vmx| Msg_Question:
+Aug 27 00:32:39.312: vmx| [msg.memsched.preNotEnoughMem] Not enough physical memory is available to power on this virtual machine with its configured settings.
+Aug 27 00:32:39.312: vmx| [msg.memSched.notEnoughMemGuestMemVal] To fix this problem, decrease the memory size of this virtual machine to 256 MB, or adjust the additional memory settings to allow more virtual machine memory to be swapped.
+Aug 27 00:32:39.312: vmx| [msg.memSched.autoScaleDown] Alternatively, do you want to temporarily reduce the memory size of the virtual machine from 512 MB to 256 MB?
+Aug 27 00:32:39.312: vmx| ----------------------------------------
+Aug 27 00:32:47.703: vmx| Msg_Question: msg.memSched.autoScaleDown reply=1
+Aug 27 00:32:47.703: vmx| Module MemSched power on failed.
+Aug 27 00:32:47.703: vmx| VMX_PowerOn: ModuleTable_PowerOn = 0
+Aug 27 00:32:47.843: vmx| Transitioned vmx/execState/val to poweredOff
+Aug 27 00:32:47.953: vmx| vmdbPipe_Streams: Couldn't read
+Aug 27 00:32:47.953: vmx| VMX idle exit
+Aug 27 00:32:47.968: vmx| Flushing VMX VMDB connections
+Aug 27 00:32:47.968: vmx| IPC_exit: disconnecting all threads
+Aug 27 00:32:47.968: vmx| VMX exit (0).

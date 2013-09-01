@@ -1,0 +1,2462 @@
+Aug 09 08:19:37.171: vmx| Log for VMware Workstation pid=3056 version=6.5.1 build=build-126130 option=Release
+Aug 09 08:19:37.171: vmx| Host codepage=windows-936 encoding=GBK
+Aug 09 08:19:37.187: vmx| Hostname=QXSDM0LVIO0M3ZA
+Aug 09 08:19:37.203: vmx| IP=192.168.0.34
+Aug 09 08:19:37.203: vmx| IP=10.20.1.71
+Aug 09 08:19:37.203: vmx| IP=192.168.56.1
+Aug 09 08:19:37.203: vmx| IP=192.168.138.1
+Aug 09 08:19:37.203: vmx| IP=192.168.70.1
+Aug 09 08:19:37.203: vmx| Command line: "E:\program-file\box\vmware-vmx.exe" "-#" "product=1;name=VMware Workstation;version=6.5.1;buildnumber=126130;licensename=VMware Workstation for Win32;licenseversion=6.0 build-126130;" "-@" "pipe=\\.\pipe\vmxb6b544ffcbe35532;" "F:\Ubuntu.vmx"
+Aug 09 08:19:37.203: vmx| Msg_SetLocale: HostLocale=GBK UserLocale=NULL
+Aug 09 08:19:37.390: vmx| UI Connecting to pipe '\\.\pipe\vmxb6b544ffcbe35532' with user '(null)'
+Aug 09 08:19:37.500: vmx| Transitioned vmx/execState/val to poweredOff
+Aug 09 08:19:37.515: vmx| HD: host version is 5.1.2600
+Aug 09 08:19:37.515: vmx| HD: addr 804f631d
+Aug 09 08:19:37.515: vmx| HD: 80568e7c, 8055b280
+Aug 09 08:19:37.515: vmx| VMMon_GetkHzEstimate: Calculated 1600010 kHz
+Aug 09 08:19:37.515: vmx| VMMon_RememberkHzEstimate: Calculated 1600020 kHz
+Aug 09 08:19:37.531: vmx| CPU # 0 TSC = 153642095136
+Aug 09 08:19:37.531: vmx| CPU # 1 TSC = 153642095000
+Aug 09 08:19:37.531: vmx| TSC delta 136
+Aug 09 08:19:37.531: vmx| PTSC: RefClockToTSC 1600010000Hz -> 1600020000Hz
+Aug 09 08:19:37.531: vmx| PTSC: RefClockToTSC ((x * 2147497069) >> 31)
+Aug 09 08:19:37.531: vmx| PTSC: using TSC
+Aug 09 08:19:37.625: vmx| CPUID[0] vendor: GenuntelineI
+Aug 09 08:19:37.625: vmx| CPUID[0]   name: Intel(R) Pentium(R) Dual  CPU  E2140  @ 1.60GHz
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000000, 0: 0x0000000a 0x756e6547 0x6c65746e 0x49656e69
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000001, 0: 0x000006fd 0x00020800 0x0000e39d 0xbfebfbff
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000220
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000006, 0: 0x00000001 0x00000002 0x00000001 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Aug 09 08:19:37.625: vmx| CPUID[0] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 80000002, 0: 0x65746e49 0x2952286c 0x6e655020 0x6d756974
+Aug 09 08:19:37.625: vmx| CPUID[0] level 80000003, 0: 0x20295228 0x6c617544 0x50432020 0x45202055
+Aug 09 08:19:37.625: vmx| CPUID[0] level 80000004, 0: 0x30343132 0x20402020 0x30362e31 0x007a4847
+Aug 09 08:19:37.625: vmx| CPUID[0] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[0] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] vendor: GenuntelineI
+Aug 09 08:19:37.625: vmx| CPUID[1]   name: Intel(R) Pentium(R) Dual  CPU  E2140  @ 1.60GHz
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000000, 0: 0x0000000a 0x756e6547 0x6c65746e 0x49656e69
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000001, 0: 0x000006fd 0x01020800 0x0000e39d 0xbfebfbff
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000220
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000006, 0: 0x00000001 0x00000002 0x00000001 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Aug 09 08:19:37.625: vmx| CPUID[1] level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 80000002, 0: 0x65746e49 0x2952286c 0x6e655020 0x6d756974
+Aug 09 08:19:37.625: vmx| CPUID[1] level 80000003, 0: 0x20295228 0x6c617544 0x50432020 0x45202055
+Aug 09 08:19:37.625: vmx| CPUID[1] level 80000004, 0: 0x30343132 0x20402020 0x30362e31 0x007a4847
+Aug 09 08:19:37.625: vmx| CPUID[1] level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID[1] level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID vendor: GenuntelineI
+Aug 09 08:19:37.625: vmx| hostCPUID   name: Intel(R) Pentium(R) Dual  CPU  E2140  @ 1.60GHz
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000000, 0: 0x0000000a 0x756e6547 0x6c65746e 0x49656e69
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000001, 0: 0x000006fd 0x00020800 0x0000e39d 0xbfebfbff
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000220
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000001 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Aug 09 08:19:37.625: vmx| hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100000
+Aug 09 08:19:37.625: vmx| hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x6e655020 0x6d756974
+Aug 09 08:19:37.625: vmx| hostCPUID level 80000003, 0: 0x20295228 0x6c617544 0x50432020 0x45202055
+Aug 09 08:19:37.625: vmx| hostCPUID level 80000004, 0: 0x30343132 0x20402020 0x30362e31 0x007a4847
+Aug 09 08:19:37.625: vmx| hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| hostCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:37.625: vmx| CPUID Maximum Physical Address Bits supported across all CPUs: 36
+Aug 09 08:19:37.687: vmx| Host ACPI: can't find SRAT
+Aug 09 08:19:37.687: vmx| Host: SRAT tables not found in memory
+Aug 09 08:19:37.718: vmx| ACL_InitCapabilities: current IPC thread
+Aug 09 08:19:37.718: vmx| ACL_InitCapabilities: done
+Aug 09 08:19:37.718: vmx| changing directory to F:\.
+Aug 09 08:19:37.718: vmx| Config file: F:\Ubuntu.vmx
+Aug 09 08:19:37.828: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 08:19:37.890: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset
+Aug 09 08:19:37.890: vmx| PowerOn
+Aug 09 08:19:37.890: vmx| VMX_PowerOn: VMX build 126130, UI build 126130
+Aug 09 08:19:37.890: vmx| Host: WIN32 highest NUMA node 0
+Aug 09 08:19:37.890: vmx| Host: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+Aug 09 08:19:37.890: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 08:19:37.906: vmx| HOSTINFO: Seeing Intel CPU, numCoresPerCPU 2 numThreadsPerCore 1.
+Aug 09 08:19:37.906: vmx| HOSTINFO: This machine has 1 physical CPUS, 2 total cores, and 2 logical CPUs.
+Aug 09 08:19:37.906: vmx| HOST Windows version 5.1, build 2600, platform 2, "Service Pack 3", SMP
+Aug 09 08:19:37.906: vmx| DICT --- USER PREFERENCES
+Aug 09 08:19:37.906: vmx| DICT       pref.eula.0.appName = VMware Workstation
+Aug 09 08:19:37.906: vmx| DICT   pref.eula.0.buildNumber = 126130
+Aug 09 08:19:37.906: vmx| DICT     pref.mruDest0.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT  pref.mruDest0.destString = 
+Aug 09 08:19:37.906: vmx| DICT        pref.mruDest0.user = 
+Aug 09 08:19:37.906: vmx| DICT     pref.mruDest1.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT  pref.mruDest1.destString = 
+Aug 09 08:19:37.906: vmx| DICT        pref.mruDest1.user = 
+Aug 09 08:19:37.906: vmx| DICT     pref.mruDest2.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT  pref.mruDest2.destString = 
+Aug 09 08:19:37.906: vmx| DICT        pref.mruDest2.user = 
+Aug 09 08:19:37.906: vmx| DICT     pref.mruDest3.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT  pref.mruDest3.destString = 
+Aug 09 08:19:37.906: vmx| DICT        pref.mruDest3.user = 
+Aug 09 08:19:37.906: vmx| DICT     pref.mruDest4.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT  pref.mruDest4.destString = 
+Aug 09 08:19:37.906: vmx| DICT        pref.mruDest4.user = 
+Aug 09 08:19:37.906: vmx| DICT     pref.mruDest5.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT  pref.mruDest5.destString = 
+Aug 09 08:19:37.906: vmx| DICT        pref.mruDest5.user = 
+Aug 09 08:19:37.906: vmx| DICT     pref.mruDest6.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT  pref.mruDest6.destString = 
+Aug 09 08:19:37.906: vmx| DICT        pref.mruDest6.user = 
+Aug 09 08:19:37.906: vmx| DICT     pref.mruDest7.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT  pref.mruDest7.destString = 
+Aug 09 08:19:37.906: vmx| DICT        pref.mruDest7.user = 
+Aug 09 08:19:37.906: vmx| DICT      pref.mruATS0.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT    pref.mruATS0.atsString = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS0.domain = 
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS0.user = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS0.secure = FALSE
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS0.port = 0
+Aug 09 08:19:37.906: vmx| DICT      pref.mruATS1.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT    pref.mruATS1.atsString = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS1.domain = 
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS1.user = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS1.secure = FALSE
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS1.port = 0
+Aug 09 08:19:37.906: vmx| DICT      pref.mruATS2.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT    pref.mruATS2.atsString = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS2.domain = 
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS2.user = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS2.secure = FALSE
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS2.port = 0
+Aug 09 08:19:37.906: vmx| DICT      pref.mruATS3.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT    pref.mruATS3.atsString = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS3.domain = 
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS3.user = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS3.secure = FALSE
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS3.port = 0
+Aug 09 08:19:37.906: vmx| DICT      pref.mruATS4.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT    pref.mruATS4.atsString = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS4.domain = 
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS4.user = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS4.secure = FALSE
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS4.port = 0
+Aug 09 08:19:37.906: vmx| DICT      pref.mruATS5.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT    pref.mruATS5.atsString = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS5.domain = 
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS5.user = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS5.secure = FALSE
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS5.port = 0
+Aug 09 08:19:37.906: vmx| DICT      pref.mruATS6.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT    pref.mruATS6.atsString = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS6.domain = 
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS6.user = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS6.secure = FALSE
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS6.port = 0
+Aug 09 08:19:37.906: vmx| DICT      pref.mruATS7.present = FALSE
+Aug 09 08:19:37.906: vmx| DICT    pref.mruATS7.atsString = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS7.domain = 
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS7.user = 
+Aug 09 08:19:37.906: vmx| DICT       pref.mruATS7.secure = FALSE
+Aug 09 08:19:37.906: vmx| DICT         pref.mruATS7.port = 0
+Aug 09 08:19:37.906: vmx| DICT   pref.registrationViewed = FALSE
+Aug 09 08:19:37.906: vmx| DICT       pref.usbDev.maxDevs = 0
+Aug 09 08:19:37.906: vmx| DICT pref.keyboardAndMouse.maxProfiles = 0
+Aug 09 08:19:37.906: vmx| DICT       webUpdate.failCount = 0
+Aug 09 08:19:37.906: vmx| DICT   webUpdate.lastCheckTime = 1375839899
+Aug 09 08:19:37.906: vmx| DICT             vmWizard.mode = custom
+Aug 09 08:19:37.906: vmx| DICT         vmWizard.guestKey = ubuntu
+Aug 09 08:19:37.906: vmx| DICT vmWizard.mruISO0.isoLocation = D:\company\download\ubuntu-10.04.3-desktop-i386.iso
+Aug 09 08:19:37.906: vmx| DICT vmWizard.installMediaType = iso
+Aug 09 08:19:37.906: vmx| DICT vmWizard.mruISO1.isoLocation = D:\company\download\ubuntu-12.04.2-desktop-i386.iso
+Aug 09 08:19:37.906: vmx| DICT  hint.vmui.showAllUSBDevs = FALSE
+Aug 09 08:19:37.906: vmx| DICT          pref.view.navBar = TRUE
+Aug 09 08:19:37.906: vmx| DICT    pref.view.navBar.width = 167
+Aug 09 08:19:37.906: vmx| DICT   pref.view.toolbars.list = _SEP_,POWER_OFF,SUSPEND,POWER_ON,RESET,POLICIES,PKG_SETTINGS,NEW_PKG,POCKET_ACE,PREVIEW,SNAPSHOT,REVERT,SNAPSHOT_MANAGER,FAVORITES,QUICK_SWITCH,FULL_SCREEN,UNITY,SUMMARY,APPLIANCE,CONSOLE,QUICK_MINIMIZE,FILE_EXIT,INSTANCE_DETAILS,INSTANCE_REACT,INSTANCE_DEACT,REPLAY_PLAY,REPLAY_RECORD
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.currentObj.path = /vm/#7887b9881274bab2/
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.currentObj.type = vm
+Aug 09 08:19:37.906: vmx| DICT pref.ws.openedObj0.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj0.name = Home
+Aug 09 08:19:37.906: vmx| DICT pref.ws.openedObj1.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj1.type = vm
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj1.path = /vm/#b6b544ffcbe35532/
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj1.file = F:\Ubuntu.vmx
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj1.name = Ubuntu
+Aug 09 08:19:37.906: vmx| DICT  pref.ws.openedObj.maxNum = 3
+Aug 09 08:19:37.906: vmx| DICT       pref.placement.left = -27
+Aug 09 08:19:37.906: vmx| DICT        pref.placement.top = -17
+Aug 09 08:19:37.906: vmx| DICT      pref.placement.right = 952
+Aug 09 08:19:37.906: vmx| DICT     pref.placement.bottom = 719
+Aug 09 08:19:37.906: vmx| DICT          pref.tip.startup = FALSE
+Aug 09 08:19:37.906: vmx| DICT            pref.tip.index = 1
+Aug 09 08:19:37.906: vmx| DICT webUpdate.updatesAvailable = TRUE
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.menu.position.ix = 0
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.menu.position.newLine = TRUE
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.power.position.ix = 5
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.power.position.newLine = TRUE
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.power.position.length = 100
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.snapshot.position.ix = 1
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.snapshot.position.length = 75
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.acem.position.ix = 2
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.acem.position.length = 123
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.view.position.ix = 3
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.view.position.length = 197
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.replay.position.ix = 4
+Aug 09 08:19:37.906: vmx| DICT pref.view.toolbars.replay.position.length = 1106
+Aug 09 08:19:37.906: vmx| DICT pref.ws.openedObj2.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj2.type = vm
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj2.path = /vm/#7887b9881274bab2/
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj2.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj2.name = Ubuntu
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj3.type = vm
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj3.path = /vm/#7887b9881274bab2/
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj3.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj3.name = Ubuntu
+Aug 09 08:19:37.906: vmx| DICT hint.cui.toolsInfoBar.Suppressible = FALSE
+Aug 09 08:19:37.906: vmx| DICT pref.ws.openedObj3.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj4.type = vm
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj4.path = /vm/#b6b544ffcbe35532/
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj4.file = F:\Ubuntu.vmx
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj4.name = Ubuntu
+Aug 09 08:19:37.906: vmx| DICT pref.autoFitGuestToWindow = TRUE
+Aug 09 08:19:37.906: vmx| DICT pref.snapshotManager.left = 250
+Aug 09 08:19:37.906: vmx| DICT  pref.snapshotManager.top = 64
+Aug 09 08:19:37.906: vmx| DICT pref.snapshotManager.right = 859
+Aug 09 08:19:37.906: vmx| DICT pref.snapshotManager.bottom = 578
+Aug 09 08:19:37.906: vmx| DICT  pref.sharedFolder.maxNum = 3
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder0.enabled = TRUE
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder0.vmPath = /vm/#7887b9881274bab2/
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder0.guestName = temp
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder0.hostPath = F:\temp
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder1.enabled = TRUE
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder1.vmPath = /vm/#7887b9881274bab2/
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder1.guestName = prgram-back
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder1.hostPath = E:\prgram-back
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj5.type = vm
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj5.path = /vm/#7887b9881274bab2/
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj5.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 09 08:19:37.906: vmx| DICT   pref.ws.openedObj5.name = Ubuntu
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder2.enabled = FALSE
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder2.vmPath = /vm/#b6b544ffcbe35532/
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder2.guestName = temp
+Aug 09 08:19:37.906: vmx| DICT pref.sharedFolder2.hostPath = F:\temp
+Aug 09 08:19:37.906: vmx| DICT --- USER DEFAULTS
+Aug 09 08:19:37.906: vmx| DICT --- HOST DEFAULTS
+Aug 09 08:19:37.906: vmx| DICT --- SITE DEFAULTS
+Aug 09 08:19:37.906: vmx| DICT --- COMMAND LINE
+Aug 09 08:19:37.906: vmx| DICT             gui.available = TRUE
+Aug 09 08:19:37.906: vmx| DICT --- CONFIGURATION
+Aug 09 08:19:37.906: vmx| DICT            config.version = 8
+Aug 09 08:19:37.906: vmx| DICT         virtualHW.version = 7
+Aug 09 08:19:37.906: vmx| DICT                  numvcpus = 2
+Aug 09 08:19:37.906: vmx| DICT             scsi0.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT          scsi0.virtualDev = lsilogic
+Aug 09 08:19:37.906: vmx| DICT                   memsize = 512
+Aug 09 08:19:37.906: vmx| DICT           scsi0:0.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT          scsi0:0.fileName = Ubuntu.vmdk
+Aug 09 08:19:37.906: vmx| DICT            ide1:0.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT           ide1:0.fileName = D:\company\download\ubuntu-10.04.3-desktop-i386.iso
+Aug 09 08:19:37.906: vmx| DICT         ide1:0.deviceType = cdrom-image
+Aug 09 08:19:37.906: vmx| DICT        floppy0.autodetect = TRUE
+Aug 09 08:19:37.906: vmx| DICT         ethernet0.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT  ethernet0.connectionType = nat
+Aug 09 08:19:37.906: vmx| DICT   ethernet0.wakeOnPcktRcv = FALSE
+Aug 09 08:19:37.906: vmx| DICT               usb.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT              ehci.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT             sound.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT            sound.fileName = -1
+Aug 09 08:19:37.906: vmx| DICT          sound.autodetect = TRUE
+Aug 09 08:19:37.906: vmx| DICT              mks.enable3d = TRUE
+Aug 09 08:19:37.906: vmx| DICT        pciBridge0.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT        pciBridge4.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT     pciBridge4.virtualDev = pcieRootPort
+Aug 09 08:19:37.906: vmx| DICT      pciBridge4.functions = 8
+Aug 09 08:19:37.906: vmx| DICT        pciBridge5.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT     pciBridge5.virtualDev = pcieRootPort
+Aug 09 08:19:37.906: vmx| DICT      pciBridge5.functions = 8
+Aug 09 08:19:37.906: vmx| DICT        pciBridge6.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT     pciBridge6.virtualDev = pcieRootPort
+Aug 09 08:19:37.906: vmx| DICT      pciBridge6.functions = 8
+Aug 09 08:19:37.906: vmx| DICT        pciBridge7.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT     pciBridge7.virtualDev = pcieRootPort
+Aug 09 08:19:37.906: vmx| DICT      pciBridge7.functions = 8
+Aug 09 08:19:37.906: vmx| DICT             vmci0.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT    roamingVM.exitBehavior = go
+Aug 09 08:19:37.906: vmx| DICT               displayName = Ubuntu
+Aug 09 08:19:37.906: vmx| DICT                   guestOS = ubuntu
+Aug 09 08:19:37.906: vmx| DICT                     nvram = Ubuntu.nvram
+Aug 09 08:19:37.906: vmx| DICT virtualHW.productCompatibility = hosted
+Aug 09 08:19:37.906: vmx| DICT     ft.secondary0.enabled = TRUE
+Aug 09 08:19:37.906: vmx| DICT      tools.upgrade.policy = useGlobal
+Aug 09 08:19:37.906: vmx| DICT        extendedConfigFile = Ubuntu.vmxf
+Aug 09 08:19:37.906: vmx| DICT          floppy0.fileName = A:
+Aug 09 08:19:37.906: vmx| DICT        checkpoint.vmState = 
+Aug 09 08:19:37.906: vmx| DICT     ide1:0.startConnected = TRUE
+Aug 09 08:19:37.906: vmx| DICT     ethernet0.addressType = generated
+Aug 09 08:19:37.906: vmx| DICT             uuid.location = 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 08:19:37.906: vmx| DICT                 uuid.bios = 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 08:19:37.906: vmx| DICT    debugStub.linuxOffsets = 0x0,0xffffffff,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0
+Aug 09 08:19:37.906: vmx| DICT              scsi0:0.redo = 
+Aug 09 08:19:37.906: vmx| DICT   usb.autoConnect.device0 = 
+Aug 09 08:19:37.906: vmx| DICT  vmotion.checkpointFBSize = 134217728
+Aug 09 08:19:37.906: vmx| DICT  pciBridge0.pciSlotNumber = 17
+Aug 09 08:19:37.906: vmx| DICT  pciBridge4.pciSlotNumber = 21
+Aug 09 08:19:37.906: vmx| DICT  pciBridge5.pciSlotNumber = 22
+Aug 09 08:19:37.906: vmx| DICT  pciBridge6.pciSlotNumber = 23
+Aug 09 08:19:37.906: vmx| DICT  pciBridge7.pciSlotNumber = 24
+Aug 09 08:19:37.906: vmx| DICT       scsi0.pciSlotNumber = 16
+Aug 09 08:19:37.906: vmx| DICT         usb.pciSlotNumber = 32
+Aug 09 08:19:37.906: vmx| DICT   ethernet0.pciSlotNumber = 33
+Aug 09 08:19:37.906: vmx| DICT       sound.pciSlotNumber = 34
+Aug 09 08:19:37.906: vmx| DICT        ehci.pciSlotNumber = 35
+Aug 09 08:19:37.906: vmx| DICT       vmci0.pciSlotNumber = 36
+Aug 09 08:19:37.906: vmx| DICT ethernet0.generatedAddress = 00:0c:29:fe:82:17
+Aug 09 08:19:37.906: vmx| DICT ethernet0.generatedAddressOffset = 0
+Aug 09 08:19:37.906: vmx| DICT                  vmci0.id = 452887063
+Aug 09 08:19:37.906: vmx| DICT       tools.remindInstall = TRUE
+Aug 09 08:19:37.906: vmx| DICT            tools.syncTime = FALSE
+Aug 09 08:19:37.906: vmx| DICT isolation.tools.hgfs.disable = FALSE
+Aug 09 08:19:37.906: vmx| DICT       sharedFolder.maxNum = 1
+Aug 09 08:19:37.906: vmx| DICT     sharedFolder0.present = TRUE
+Aug 09 08:19:37.906: vmx| DICT     sharedFolder0.enabled = TRUE
+Aug 09 08:19:37.906: vmx| DICT  sharedFolder0.readAccess = TRUE
+Aug 09 08:19:37.906: vmx| DICT sharedFolder0.writeAccess = TRUE
+Aug 09 08:19:37.906: vmx| DICT    sharedFolder0.hostPath = F:\temp
+Aug 09 08:19:37.906: vmx| DICT   sharedFolder0.guestName = temp
+Aug 09 08:19:37.906: vmx| DICT  sharedFolder0.expiration = never
+Aug 09 08:19:37.906: vmx| DICT --- USER DEFAULTS
+Aug 09 08:19:37.906: vmx| DICT --- HOST DEFAULTS
+Aug 09 08:19:37.906: vmx| DICT --- SITE DEFAULTS
+Aug 09 08:19:37.906: vmx| DICT --- GLOBAL SETTINGS
+Aug 09 08:19:37.937: vmx| hostCpuFeatures = 0x404001fc
+Aug 09 08:19:37.937: vmx| hostNumPerfCounters = 2
+Aug 09 08:19:37.937: vmx| CPU0: PMC: IA32, CORE 2 [c:0 f:1 e:1]
+Aug 09 08:19:37.937: vmx| CPU1: PMC: IA32, CORE 2 [c:0 f:1 e:1]
+Aug 09 08:19:37.937: vmx| MONITOR MODE: allowed modes          : BT
+Aug 09 08:19:37.937: vmx| MONITOR MODE: user requested modes   : BT HV HWMMU
+Aug 09 08:19:37.937: vmx| MONITOR MODE: guestOS preferred modes: HWMMU BT HV
+Aug 09 08:19:37.937: vmx| MONITOR MODE: filtered list          : BT
+Aug 09 08:19:37.937: vmx| HV Settings: virtual exec = 'software'; virtual mmu = 'software'
+Aug 09 08:19:38.046: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 08:19:38.062: vmx| Host display topology 1024x768.
+Aug 09 08:19:38.062: vmx| SVGA using 2360x1770.
+Aug 09 08:19:38.062: vmx| WSSCAN: reserved mem (in MB) min=32 max=832 recommended=832
+Aug 09 08:19:38.062: vmx| WSSCAN: used rec mem (in MB) 832
+Aug 09 08:19:38.062: vmx| PSHARE: scan rate min 16 max 400
+Aug 09 08:19:38.062: vmx| WSSCAN: Overhead 165174 paged 27158 nonpaged 32768 maxFBSize
+Aug 09 08:19:38.125: vmx| WSSCAN 1 1 174066 182258 212992 197233 50 0
+Aug 09 08:19:38.140: vmx| LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.6.0.200907' 
+Aug 09 08:19:38.265: vmx| LOG failed to remove stats\stats32-2 failed: The system cannot find the path specified
+Aug 09 08:19:38.265: vmx| LOG failed to rename stats\stats32-1 -> stats\stats32-2 failed: The system cannot find the path specified
+Aug 09 08:19:38.265: vmx| LOG failed to rename stats\stats32-0 -> stats\stats32-1 failed: The system cannot find the path specified
+Aug 09 08:19:38.265: vmx| LOG failed to rename stats\stats32 -> stats\stats32-0 failed: The system cannot find the path specified
+Aug 09 08:19:38.265: vmx| LOG failed to remove stats\stats64-2 failed: The system cannot find the path specified
+Aug 09 08:19:38.265: vmx| LOG failed to rename stats\stats64-1 -> stats\stats64-2 failed: The system cannot find the path specified
+Aug 09 08:19:38.265: vmx| LOG failed to rename stats\stats64-0 -> stats\stats64-1 failed: The system cannot find the path specified
+Aug 09 08:19:38.281: vmx| LOG failed to rename stats\stats64 -> stats\stats64-0 failed: The system cannot find the path specified
+Aug 09 08:19:38.281: vmx| LOG failed to remove stats32-2 failed: The system cannot find the file specified
+Aug 09 08:19:38.281: vmx| LOG failed to remove stats64-2 failed: The system cannot find the file specified
+Aug 09 08:19:38.296: vmx| Monitor_PowerOn: hostedVSMPMaxSkew is 1500 us (2400030 cycles)
+Aug 09 08:19:38.296: vmx| Monitor_PowerOn: hostedVSMPYieldPoint is 50 us (80001 cycles)
+Aug 09 08:19:38.296: vmx| vmm32-modules: [vmm.vmm32 .data:0x2b000-0x728 .sdata:0x2c000-0x4e4 .statvars:0x2d000-0x3a0 .peer:0x2e000-0x261c0 .shared:0x56000-0x12ac0 .bss:0x6a000-0x5c88 .rodata:0x71000-0xb310 .text:0x7d000-0x5906d .kstatvars:0x3000-0x0, mmu-pae.vmm32 .rodata:0x7c310-0x44 .data:0x2b728-0xc .peer:0x541c0-0x16c0 .shared:0x68ac0-0x2c0 .bss:0x6fca0-0x518 .text:0xd6070-0xa4e7 .comment:0x40000d26-0x10e .statvars:0x2000-0x0 .kstatvars:0x2000-0x0 .scb:0x400038a0-0x180 .shared_meta:0x40003c00-0x390 .peer_meta:0x40001020-0x210, sharedmmu-none.vmm32 .text:0xe0558-0x32 .comment:0x40000e34-0x12, pv-none.vmm32 .shared:0x68d80-0x180 .bss:0x701c0-0x84 .text:0xe058c-0xe6 .comment:0x40000e46-0x48 .shared_meta:0x40003f90-0x90, vprobe-none.vmm32 .text:0xe0674-0x79 .comment:0x40000e8e-0x12, hv-none.vmm32 .rodata:0x7c354-0x4 .data:0x1000-0x0 .peer:0x1000-0x0 .shared:0x1000-0x0 .bss:0x1000-0x0 .text:0xe06f0-0x2d .comment:0x40000ea0-0x12 .statvars:0x1000-0x0 .kstatvars:0x1000-0x0, gphys-sw.vmm32 .peer:0x55880-0x40 .shared:0x68f00-0x140 .bss:0x2000-0x0 .text:0xe0720-0xb43 .comment:0x40000eb2-0x12 .scb:0x40003a20-0x60 .shared_meta:0x40004020-0x2a0 .peer_meta:0x40001230-0x60, vassert-none.vmm32 .text:0xe1264-0xf .comment:0x40000ec4-0x12, vmsafe-none.vmm32 .text:0xe1274-0xd .comment:0x40000ed6-0x12, <MonSrcFile> .rodata:0x7c358-0x36c]
+Aug 09 08:19:38.296: vmx| KHZEstimate 1600020
+Aug 09 08:19:38.296: vmx| MHZEstimate 1600
+Aug 09 08:19:38.296: vmx| NumVCPUs 2
+Aug 09 08:19:38.312: vmx| PShare: enabled 1, scanRate 32, checkRate 16
+Aug 09 08:19:38.312: vmx| UUID: location-UUID is 56 4d 26 71 5f a3 44 47-22 d4 31 7b c5 d7 dd 5b
+Aug 09 08:19:38.312: vmx| UUID: location-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 08:19:38.312: vmx| UUID: location-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 08:19:38.312: vmx| AIOGNRC: numThreads=18 ide=0, scsi=1, passthru=1
+Aug 09 08:19:38.312: vmx| WORKER: Creating new group with numThreads=18 (18)
+Aug 09 08:19:38.328: vmx| Replay State = 0
+Aug 09 08:19:38.328: vmx| minDEThreshold: 70
+Aug 09 08:19:38.328: vmx| MM: Using partialmap, 131072 pages AC 0 CE 1 TM 0 DOHU 0
+Aug 09 08:19:38.328: vmx| UUID: location-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 08:19:38.343: vmx| FILE: ScanDirectory discarding M00438.lck from F:\564d72a5-6629-defd-87ec-fee81afe8217.vmem.lck': invalid executionID.
+Aug 09 08:19:38.343: vmx| MM: using 'F:\564d72a5-6629-defd-87ec-fee81afe8217.vmem' as a paging file
+Aug 09 08:19:38.343: vmx| Opened paging file F:\564d72a5-6629-defd-87ec-fee81afe8217.vmem
+Aug 09 08:19:38.375: vmx| Mapped mainmem as pageable
+Aug 09 08:19:38.375: vmx| MMCHK: Disabling checks which are not forced, cannot do checks on certain processors.
+Aug 09 08:19:38.375: vmx| MStat: Creating Stat vm.uptime
+Aug 09 08:19:38.375: vmx| MStat: Creating Stat vm.suspendTime
+Aug 09 08:19:38.375: vmx| MStat: Creating Stat vm.powerOnTimeStamp
+Aug 09 08:19:38.390: vmx| VMXAIOMGR: Using: simple=Generic unbuf=Compl
+Aug 09 08:19:38.421: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 08:19:38.421: vmx| DISK: OPEN scsi0:0 'F:\Ubuntu.vmdk' persistent R[]
+Aug 09 08:19:38.421: vmx| FILE: ScanDirectory discarding M13678.lck from F:\Ubuntu.vmdk.lck': invalid executionID.
+Aug 09 08:19:38.781: vmx| DISKLIB-DSCPTR: Opened [0]: "Ubuntu.vmdk" (0xa)
+Aug 09 08:19:38.781: vmx| DISKLIB-LINK  : Opened 'F:\Ubuntu.vmdk' (0xa): monolithicSparse, 62914560 sectors / 30 GB.
+Aug 09 08:19:38.781: vmx| DISKLIB-LIB   : Opened "F:\Ubuntu.vmdk" (flags 0xa).
+Aug 09 08:19:38.781: vmx| DiskGetGeometry: Reading of disk partition table
+Aug 09 08:19:38.781: vmx| DISK: OPEN 'F:\Ubuntu.vmdk' Geo (3916/255/63) BIOS Geo (3916/255/63) freeSpace=27035 MB, lsilogic
+Aug 09 08:19:38.828: vmx| TimeTracker host to guest rate conversion 155734125464 @ 1600020000Hz -> 155734125464 @ 1600020000Hz
+Aug 09 08:19:38.828: vmx| TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + 0
+Aug 09 08:19:38.843: vmx| USB: Initializing 'Generic' backend
+Aug 09 08:19:38.843: vmx| USBGW: Connected to HCMON version 3.0
+Aug 09 08:19:38.843: vmx| USB: Initializing 'Virtual Hub' backend
+Aug 09 08:19:38.843: vmx| USB: Initializing 'Virtual Mouse' backend
+Aug 09 08:19:38.843: vmx| USB: Initializing 'Virtual Keyboard' backend
+Aug 09 08:19:38.843: vmx| USB: Initializing 'Virtual Mass Storage' backend
+Aug 09 08:19:38.843: vmx| USB: Initializing 'Virtual CCID' backend
+Aug 09 08:19:38.843: usbCCIDEnumCards| USB-CCID: Card enum thread created.
+Aug 09 08:19:38.843: vmx| WORKER: Creating new group with numThreads=1 (19)
+Aug 09 08:19:38.890: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.vmx).
+Aug 09 08:19:38.890: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.vmdk).
+Aug 09 08:19:38.890: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.vmsd).
+Aug 09 08:19:38.890: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.nvram).
+Aug 09 08:19:38.953: vmx| Host display topology 1024x768.
+Aug 09 08:19:38.953: vmx| SVGA using 2360x1770.
+Aug 09 08:19:39.000: vmx| WORKER: Creating new group with numThreads=1 (20)
+Aug 09 08:19:39.000: vmx| MKS REMOTE Loading VNC Configuration from VM config file
+Aug 09 08:19:39.015: vmx| VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+Aug 09 08:19:39.015: vmx| VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+Aug 09 08:19:39.015: vmx| NetPkt: checksum cycles/kB: C=70 asm1=684 asm2=680
+Aug 09 08:19:39.015: vmx| NetPkt: copy and sum cycles/kB: C=1425 asm1=679 asm2=681
+Aug 09 08:19:39.031: vmx| Chipset version: 0x13
+Aug 09 08:19:39.093: vmx| DISKUTIL: ide1:0 : capacity=0
+Aug 09 08:19:39.093: vmx| DISKUTIL: ide1:0 : geometry=0/0/0
+Aug 09 08:19:39.093: vmx| SCSI0: UNTAGGED commands will be converted to ORDER tags.
+Aug 09 08:19:39.093: vmx| DISKUTIL: scsi0:0 : capacity=62914560
+Aug 09 08:19:39.093: vmx| DISKUTIL: scsi0:0 : geometry=3916/255/63
+Aug 09 08:19:39.109: vmx| SVGA: Advertising 3D acceleration.
+Aug 09 08:19:39.109: vmx| Host display topology 1024x768 with 1 displays.
+Aug 09 08:19:39.109: vmx| SVGA using 2360x1770.
+Aug 09 08:19:39.125: vmx| USB: Initializing 'UHCI' host controller
+Aug 09 08:19:39.125: vmx| Ethernet0 MAC Address: 00:0c:29:fe:82:17
+Aug 09 08:19:39.125: vmx| USB: Initializing 'EHCI' host controller
+Aug 09 08:19:39.156: vmx| MStat: Creating Stat vm.heartbeat
+Aug 09 08:19:39.156: vmx| DISKUTIL: scsi0:0 : toolsVersion = 7428
+Aug 09 08:19:39.156: vmx| Msg_Hint: msg.tools.toolsReminder (sent)
+Aug 09 08:19:39.156: vmx| Do not forget to install the VMware Tools package inside this virtual machine: wait until your guest operating system finishes booting, then choose VM > Install VMware Tools… and follow the instructions.
+Aug 09 08:19:39.156: vmx| ---------------------------------------
+Aug 09 08:19:39.453: vmx| TOOLS INSTALL initializing state to IDLE on power on.
+Aug 09 08:19:39.500: vmx| PTSC to VMI Wallclock (nsec) 156805472280 @ 1600020000Hz -> 1376007579000000000 @ 1000000000Hz
+Aug 09 08:19:39.500: vmx| PTSC to VMI Wallclock (nsec) ((x * 2684321005) >> 32) + 1376007480997804889
+Aug 09 08:19:39.500: vmx| PTSC to ParaTime RealCycles 0 @ 1600020000Hz -> 0 @ 1600020000Hz
+Aug 09 08:19:39.500: vmx| PTSC to ParaTime RealCycles ((x * 1) >> 0) + 0
+Aug 09 08:19:39.500: vmx| ParaTime RealCycles to PTSC 0 @ 1600020000Hz -> 0 @ 1600020000Hz
+Aug 09 08:19:39.500: vmx| ParaTime RealCycles to PTSC ((x * 1) >> 0) + 0
+Aug 09 08:19:39.500: vmx| memoryHotplug: Current size = 512MB, Minimum size = 512MB, Maximum size = 512MB
+Aug 09 08:19:39.500: vmx| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Aug 09 08:19:39.500: vmx| memoryHotplug: Entry[1]: 00000000001000A0-0000000020000000
+Aug 09 08:19:39.515: vmx| guestCpuFeatures = 0x404001f8
+Aug 09 08:19:39.515: vmx| guestCPUID vendor: GenuntelineI
+Aug 09 08:19:39.515: vmx| guestCPUID   name: Intel(R) Pentium(R) Dual  CPU  E2140  @ 1.60GHz
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000000, 0: 0x0000000a 0x756e6547 0x6c65746e 0x49656e69
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000001, 0: 0x000006fd 0x00010800 0x80000201 0x0febfbff
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000220
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000001 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Aug 09 08:19:39.515: vmx| guestCPUID level 40000000, 0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+Aug 09 08:19:39.515: vmx| guestCPUID level 40000010, 0: 0x00186a14 0x000101d0 0x00000000 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000000 0x00100000
+Aug 09 08:19:39.515: vmx| guestCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x6e655020 0x6d756974
+Aug 09 08:19:39.515: vmx| guestCPUID level 80000003, 0: 0x20295228 0x6c617544 0x50432020 0x45202055
+Aug 09 08:19:39.515: vmx| guestCPUID level 80000004, 0: 0x30343132 0x20402020 0x30362e31 0x007a4847
+Aug 09 08:19:39.515: vmx| guestCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:39.515: vmx| guestCPUID level 80000008, 0: 0x00003028 0x00000000 0x00000000 0x00000000
+Aug 09 08:19:39.531: vmx| BusMemSample: initPercent 75 touched 98304
+Aug 09 08:19:39.531: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '1'
+Aug 09 08:19:39.531: vmx| TOOLS received request in VMX to set option 'copypaste' -> '1'
+Aug 09 08:19:39.578: vmx| VMX_PowerOn: ModuleTable_PowerOn = 1
+Aug 09 08:19:39.578: vmx| VMX setting maximum IPC write buffers to 0 packets, 0 bytes
+Aug 09 08:19:39.578: mks| Async MKS thread is alive
+Aug 09 08:19:39.781: vmx| DnDRegisterRpc: DnD rpc already set to 1
+Aug 09 08:19:39.781: vmx| CopyPasteRegisterRpc: already set to 1
+Aug 09 08:19:39.781: vcpu-0| APIC: version = 0x14, max LVT = 5
+Aug 09 08:19:39.781: vcpu-0| APIC: LDR = 0x2000000, DFR = 0xffffffff
+Aug 09 08:19:39.781: mks| Connecting to window system.
+Aug 09 08:19:39.781: mks| KHBKL: Unable to parse keystring at: ''
+Aug 09 08:19:39.875: mks| VMXAIOMGR: Disallowing USB connect.  2700315 us since last reopen
+Aug 09 08:19:39.906: vcpu-0| guestCpuFeatures = 0x404001f8
+Aug 09 08:19:39.921: vcpu-0| CPU reset: hard
+Aug 09 08:19:39.921: vcpu-0| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Aug 09 08:19:39.921: vcpu-0| memoryHotplug: Entry[1]: 00000000001000A0-0000000020000000
+Aug 09 08:19:39.968: vcpu-0| SOUND 002.802016 PCISoundWin32 mixerGetLineInfo error 11
+Aug 09 08:19:39.984: vcpu-0| VNET: Notification enabled for Ethernet0
+Aug 09 08:19:39.984: vcpu-0| FLOPPYLIB-MAIN : Using autodetect backend A: for floppy0.
+Aug 09 08:19:56.500: vcpu-0| CDROM: Connecting ide1:0 to 'D:\company\download\ubuntu-10.04.3-desktop-i386.iso'. img=1 raw=0 remote=0
+Aug 09 08:19:56.515: vcpu-0| Transitioned vmx/execState/val to poweredOn
+Aug 09 08:19:56.515: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:19:56.531: vmx| VMXVmdbLoadUsbDevices: New set of 4 USB devices
+Aug 09 08:19:56.531: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 08:19:56.531: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 08:19:56.531: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 08:19:56.531: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 08:19:56.578: mks| MKSHostOps_Exit3D: 0, 1
+Aug 09 08:19:56.671: vcpu-0| sz=2992080
+Aug 09 08:19:56.671: vcpu-1| APIC: version = 0x14, max LVT = 5
+Aug 09 08:19:56.671: vcpu-1| APIC: LDR = 0x1000000, DFR = 0xffffffff
+Aug 09 08:19:56.703: vcpu-1| guestCpuFeatures = 0x404001f8
+Aug 09 08:19:56.718: vcpu-1| CPU reset: hard
+Aug 09 08:19:56.734: vcpu-1| sz=2994144
+Aug 09 08:19:56.750: vcpu-0| vmm32 initialized: Releasebuild-126130. cflags: 0x00000008.00040280.03418084.00002800
+Aug 09 08:19:56.750: vcpu-1| vmm32 initialized: Releasebuild-126130. cflags: 0x00000008.00040280.03418084.00002800
+Aug 09 08:19:56.890: vcpu-0| MonitorInitNumaUnmapVMM32
+Aug 09 08:19:57.250: vcpu-1| CPU reset: soft
+Aug 09 08:19:57.765: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0x0) and 0xd8000000(0x0)
+Aug 09 08:19:57.765: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 08:19:58.015: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 08:19:58.031: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 08:19:58.062: vcpu-0| SVGA: Registering IOSpace at 0x10d0
+Aug 09 08:19:58.062: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 08:19:58.078: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.078: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.078: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.078: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.078: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.078: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.093: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.109: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.109: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.109: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.109: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.109: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.109: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.109: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.109: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.109: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.125: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.125: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.125: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.125: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.125: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.125: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.125: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.140: vcpu-1| CPU reset: soft
+Aug 09 08:19:58.171: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:19:58.343: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:19:58.359: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:19:58.359: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:19:58.375: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:19:58.406: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:19:58.531: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.531: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.531: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.531: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.531: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.546: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.546: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.546: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.546: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.546: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.546: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.546: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.546: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.546: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.562: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.578: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.578: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.578: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.578: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.578: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.578: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.578: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.578: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:19:58.593: vcpu-0| DISKUTIL: scsi0:0 : geometry=3916/255/63
+Aug 09 08:19:58.593: vcpu-0| SCSI0: RESET BUS
+Aug 09 08:19:58.671: vcpu-1| CPU reset: soft
+Aug 09 08:19:58.703: vcpu-0| BIOS-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 08:19:59.171: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:19:59.171: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:20:03.750: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:03.765: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:03.781: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:03.781: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:03.781: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:03.796: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:03.796: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:03.812: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:08.375: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:08.375: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:08.375: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:08.390: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:20:12.953: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:20:13.015: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:20:14.296: mks| SVGA: display status changed, using optimizations for local consoles.
+Aug 09 08:20:14.359: vcpu-1| CPU reset: soft
+Aug 09 08:20:14.906: vcpu-0| SVGA: Unregistering IOSpace at 0x10d0
+Aug 09 08:20:14.906: vcpu-0| SVGA: Registering IOSpace at 0xfffffff0
+Aug 09 08:20:14.906: vcpu-0| SVGA: Unregistering IOSpace at 0xfffffff0
+Aug 09 08:20:14.906: vcpu-0| SVGA: Registering IOSpace at 0x10d0
+Aug 09 08:20:15.000: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.015: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.031: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.843: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 08:20:15.875: vcpu-1| UHCI: HCReset
+Aug 09 08:20:16.187: vcpu-1| UHCI: HCReset
+Aug 09 08:20:17.328: vcpu-0| CDROM ide1:0: CMD 0x52 (*UNKNOWN (0x52)*) FAILED (key 0x5 asc 0x20 ascq 0)
+Aug 09 08:20:17.921: vcpu-0| SCSI0: RESET BUS
+Aug 09 08:20:18.328: vcpu-0| SCSI0: RESET BUS
+Aug 09 08:20:18.359: vcpu-1| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Aug 09 08:20:18.359: vcpu-1| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Aug 09 08:20:18.375: vcpu-1| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Aug 09 08:20:18.390: vcpu-0| SCSI DEVICE (scsi0:0): INQUIRY request with EVPD set
+Aug 09 08:21:07.218: vmx| USBGW: Autoconnecting 40000010480a006
+Aug 09 08:21:07.218: vmx| VMXVmdbLoadUsbDevices: New set of 5 USB devices
+Aug 09 08:21:07.218: vmx| USB: Found device [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage]
+Aug 09 08:21:07.218: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 08:21:07.218: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 08:21:07.218: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 08:21:07.218: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 08:21:07.703: vcpu-0| USBG warning: can't reset port usbioerr 'NOT_CONFIGURED'
+Aug 09 08:21:07.984: vcpu-0| USBG warning: can't reset port usbioerr 'NOT_CONFIGURED'
+Aug 09 08:21:08.625: vmx| USBIO: Detect usb-storage class
+Aug 09 08:21:14.984: vcpu-0| VIDE: Truncating 0x46 from 65530 bytes to 32768
+Aug 09 08:21:14.984: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 08:21:15.125: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 08:21:15.328: vcpu-0| SCSI DEVICE (scsi0:0): INQUIRY request with EVPD set
+Aug 09 08:21:15.906: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 08:21:15.953: vcpu-1| Keyboard: invalid mouse sample rate 102 Hz, using 100 instead
+Aug 09 08:21:16.593: vcpu-0| VMMouse: CMD Read ID
+Aug 09 08:21:16.593: vcpu-0| VMMouse: CMD Disable
+Aug 09 08:21:16.593: vcpu-0| VMMouse: Disabling VMMouse mode
+Aug 09 08:21:16.687: vcpu-0| VMMouse: CMD Read ID
+Aug 09 08:21:16.687: vcpu-0| VMMouse: CMD Disable
+Aug 09 08:21:16.687: vcpu-0| VMMouse: Disabling VMMouse mode
+Aug 09 08:21:16.812: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 08:21:16.812: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 08:21:16.812: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 08:21:16.812: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 08:21:16.812: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 08:21:16.812: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 08:21:16.843: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:21:16.843: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:21:16.875: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:21:16.875: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:21:16.890: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:21:16.921: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 08:21:18.015: vcpu-0| SOUND 100.807089 PCISoundWin32 mixerGetLineInfo error 11
+Aug 09 08:21:18.500: vcpu-1| VLANCE: Returning 0x0 for LANCE_EXTINT IN
+Aug 09 08:21:18.500: vcpu-1| VLANCE: Ignoring LANCE_EXTINT OUT of 0x1
+Aug 09 08:21:18.828: vcpu-1| VLANCE: IN on LANCE_MODE while not stopped: 0x33
+Aug 09 08:21:18.828: vcpu-1| VLANCE: OUT on LANCE_PADR2 while not stopped: 0x33, word: 0x0
+Aug 09 08:21:18.828: vcpu-1| VLANCE: OUT on LANCE_LADRF0 while not stopped: 0x33, word: 0x0
+Aug 09 08:21:18.828: vcpu-1| VLANCE: OUT on LANCE_LADRF1 while not stopped: 0x33, word: 0x80
+Aug 09 08:21:18.828: vcpu-1| VLANCE: OUT on LANCE_LADRF2 while not stopped: 0x33, word: 0x0
+Aug 09 08:21:18.828: vcpu-1| VLANCE: OUT on LANCE_LADRF3 while not stopped: 0x33, word: 0x0
+Aug 09 08:21:22.078: mks| SVGA: enabling escape command
+Aug 09 08:21:22.078: mks| SVGA: Sync FIFO with SVGA disabled
+Aug 09 08:21:22.234: vcpu-0| Guest OS = 0x5008
+Aug 09 08:21:22.234: vcpu-0| Guest display topology changed: numDisplays 1
+Aug 09 08:21:22.328: mks| HostOps hideCursor before defineCursor!
+Aug 09 08:21:24.015: vcpu-0| VMMouse: CMD Read ID
+Aug 09 08:21:24.015: vcpu-0| VMMouse: CMD Disable
+Aug 09 08:21:24.015: vcpu-0| VMMouse: Disabling VMMouse mode
+Aug 09 08:21:24.093: vcpu-1| VMMouse: CMD Read ID
+Aug 09 08:21:29.453: vcpu-0| GuestRpc: Channel 0, guest application toolbox.
+Aug 09 08:21:29.562: vcpu-0| TOOLS autoupgrade protocol version 2
+Aug 09 08:21:30.734: vcpu-0| TOOLS ToolsCapabilityGuestTempDirectory received 1 /tmp/vmware-root
+Aug 09 08:21:30.734: vcpu-0| TOOLS ToolsCapabilityGuestConfDirectory received /etc/vmware-tools
+Aug 09 08:21:30.812: vcpu-0| TOOLS setting the tools version to '7428'
+Aug 09 08:21:31.078: vcpu-0| Guest: toolbox: Version: build-126130
+Aug 09 08:21:31.125: vcpu-0| TOOLS unified loop capability requested by 'toolbox'; now sending options via TCLO
+Aug 09 08:21:36.296: vcpu-0| Compared tools manifest from host and from the guest. Status = 2.
+Aug 09 08:21:36.296: vcpu-0| TOOLS installed legacy version 7428, available legacy version 7428
+Aug 09 08:21:36.296: vcpu-0| TOOLS manifest update status is 2 (1-out of date, 2-ok, 3-unknown)
+Aug 09 08:21:36.296: vcpu-0| TOOLS will not be autoupgraded.
+Aug 09 08:21:36.296: vcpu-0| TOOLS Setting autoupgrade-checked TRUE.
+Aug 09 08:21:43.203: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 08:21:43.203: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 08:21:43.218: vcpu-0| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 08:21:43.218: vcpu-0| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 08:21:52.000: vcpu-1| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:21:52.000: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:21:52.015: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:21:52.031: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:21:52.234: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 08:21:52.265: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 1 start feature 0
+Aug 09 08:21:52.875: vcpu-1| CDROM: Accepting Event Status Notification 0x10
+Aug 09 08:21:57.609: vcpu-1| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 08:22:52.796: vcpu-1| VMMouse: CMD Received 0x53424152 with 4 words of unread data!
+Aug 09 08:22:52.812: mks| MKS switching absolute mouse on
+Aug 09 08:23:42.781: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 08:23:42.781: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 40
+Aug 09 08:23:42.781: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 32
+Aug 09 08:23:42.781: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 08:23:43.093: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 09:49:45.421: vmx| USB: Disconnecting device 0x40000010480a006
+Aug 09 09:49:45.921: vmx| VMXVmdbLoadUsbDevices: New set of 5 USB devices
+Aug 09 09:49:45.921: vmx| USB: Found device [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage]
+Aug 09 09:49:45.921: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:45.921: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:45.921: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:45.921: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:50.609: vmx| VMXVmdbLoadUsbDevices: New set of 4 USB devices
+Aug 09 09:49:50.609: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:50.609: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:50.609: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:50.609: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:53.875: vmx| VMXVmdbLoadUsbDevices: New set of 5 USB devices
+Aug 09 09:49:53.875: vmx| USB: Found device [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage]
+Aug 09 09:49:53.875: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:53.875: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:53.875: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:49:53.875: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:50:33.625: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOff with reset
+Aug 09 09:50:35.031: vmx| 
+Aug 09 09:50:35.031: vmx| 
+Aug 09 09:50:35.031: vmx| VMXRequestReset
+Aug 09 09:50:35.062: vmx| Stopping VCPU threads...
+Aug 09 09:50:35.390: mks| Detaching from window system.
+Aug 09 09:50:35.890: mks| MKSHostOps_Exit3D: 1, 0
+Aug 09 09:50:35.890: mks| Async MKS thread is exiting
+Aug 09 09:50:36.359: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '0'
+Aug 09 09:50:36.421: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Aug 09 09:50:36.421: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Aug 09 09:50:39.718: vmx| MKS local poweroff
+Aug 09 09:50:39.812: usbCCIDEnumCards| USB-CCID: Card enum thread exiting.
+Aug 09 09:50:40.156: vmx| scsi0:0: numIOs = 11353 numMergedIOs = 1080 numSplitIOs = 162 (13.0%)
+Aug 09 09:50:42.656: vmx| AIOWIN32C: asyncOps=12250 syncOps=128 bufSize=4Kb fixedOps=5 sgOps=12203 sgOn=1
+Aug 09 09:50:42.656: aioCompletion| AIO thread processed 12250 completions
+Aug 09 09:50:42.656: vmx| AIOWIN32: asyncOps=0 syncOps=0 bufSize=0Kb delayed=0 fixed=0 sgOp=0 sgOn=1
+Aug 09 09:50:42.828: vmx| WORKER: asyncOps=68 maxActiveOps=1 maxPending=0 maxCompleted=0
+Aug 09 09:50:43.578: vmx| PowerOn
+Aug 09 09:50:43.578: vmx| VMX_PowerOn: VMX build 126130, UI build 126130
+Aug 09 09:50:43.593: vmx| Host: WIN32 highest NUMA node 0
+Aug 09 09:50:43.593: vmx| Host: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+Aug 09 09:50:43.906: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 09:50:43.906: vmx| HOSTINFO: Seeing Intel CPU, numCoresPerCPU 2 numThreadsPerCore 1.
+Aug 09 09:50:43.906: vmx| HOSTINFO: This machine has 1 physical CPUS, 2 total cores, and 2 logical CPUs.
+Aug 09 09:50:43.937: vmx| HOST Windows version 5.1, build 2600, platform 2, "Service Pack 3", SMP
+Aug 09 09:50:43.937: vmx| DICT --- USER PREFERENCES
+Aug 09 09:50:43.937: vmx| DICT       pref.eula.0.appName = VMware Workstation
+Aug 09 09:50:43.937: vmx| DICT   pref.eula.0.buildNumber = 126130
+Aug 09 09:50:43.937: vmx| DICT     pref.mruDest0.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT  pref.mruDest0.destString = 
+Aug 09 09:50:43.937: vmx| DICT        pref.mruDest0.user = 
+Aug 09 09:50:43.937: vmx| DICT     pref.mruDest1.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT  pref.mruDest1.destString = 
+Aug 09 09:50:43.937: vmx| DICT        pref.mruDest1.user = 
+Aug 09 09:50:43.937: vmx| DICT     pref.mruDest2.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT  pref.mruDest2.destString = 
+Aug 09 09:50:43.937: vmx| DICT        pref.mruDest2.user = 
+Aug 09 09:50:43.937: vmx| DICT     pref.mruDest3.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT  pref.mruDest3.destString = 
+Aug 09 09:50:43.937: vmx| DICT        pref.mruDest3.user = 
+Aug 09 09:50:43.937: vmx| DICT     pref.mruDest4.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT  pref.mruDest4.destString = 
+Aug 09 09:50:43.937: vmx| DICT        pref.mruDest4.user = 
+Aug 09 09:50:43.937: vmx| DICT     pref.mruDest5.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT  pref.mruDest5.destString = 
+Aug 09 09:50:43.937: vmx| DICT        pref.mruDest5.user = 
+Aug 09 09:50:43.937: vmx| DICT     pref.mruDest6.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT  pref.mruDest6.destString = 
+Aug 09 09:50:43.937: vmx| DICT        pref.mruDest6.user = 
+Aug 09 09:50:43.937: vmx| DICT     pref.mruDest7.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT  pref.mruDest7.destString = 
+Aug 09 09:50:43.937: vmx| DICT        pref.mruDest7.user = 
+Aug 09 09:50:43.937: vmx| DICT      pref.mruATS0.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT    pref.mruATS0.atsString = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS0.domain = 
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS0.user = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS0.secure = FALSE
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS0.port = 0
+Aug 09 09:50:43.937: vmx| DICT      pref.mruATS1.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT    pref.mruATS1.atsString = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS1.domain = 
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS1.user = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS1.secure = FALSE
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS1.port = 0
+Aug 09 09:50:43.937: vmx| DICT      pref.mruATS2.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT    pref.mruATS2.atsString = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS2.domain = 
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS2.user = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS2.secure = FALSE
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS2.port = 0
+Aug 09 09:50:43.937: vmx| DICT      pref.mruATS3.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT    pref.mruATS3.atsString = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS3.domain = 
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS3.user = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS3.secure = FALSE
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS3.port = 0
+Aug 09 09:50:43.937: vmx| DICT      pref.mruATS4.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT    pref.mruATS4.atsString = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS4.domain = 
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS4.user = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS4.secure = FALSE
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS4.port = 0
+Aug 09 09:50:43.937: vmx| DICT      pref.mruATS5.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT    pref.mruATS5.atsString = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS5.domain = 
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS5.user = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS5.secure = FALSE
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS5.port = 0
+Aug 09 09:50:43.937: vmx| DICT      pref.mruATS6.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT    pref.mruATS6.atsString = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS6.domain = 
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS6.user = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS6.secure = FALSE
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS6.port = 0
+Aug 09 09:50:43.937: vmx| DICT      pref.mruATS7.present = FALSE
+Aug 09 09:50:43.937: vmx| DICT    pref.mruATS7.atsString = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS7.domain = 
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS7.user = 
+Aug 09 09:50:43.937: vmx| DICT       pref.mruATS7.secure = FALSE
+Aug 09 09:50:43.937: vmx| DICT         pref.mruATS7.port = 0
+Aug 09 09:50:43.937: vmx| DICT   pref.registrationViewed = FALSE
+Aug 09 09:50:43.937: vmx| DICT       pref.usbDev.maxDevs = 0
+Aug 09 09:50:43.937: vmx| DICT pref.keyboardAndMouse.maxProfiles = 0
+Aug 09 09:50:43.937: vmx| DICT       webUpdate.failCount = 0
+Aug 09 09:50:43.937: vmx| DICT   webUpdate.lastCheckTime = 1375839899
+Aug 09 09:50:43.937: vmx| DICT             vmWizard.mode = custom
+Aug 09 09:50:43.937: vmx| DICT         vmWizard.guestKey = ubuntu
+Aug 09 09:50:43.937: vmx| DICT vmWizard.mruISO0.isoLocation = D:\company\download\ubuntu-10.04.3-desktop-i386.iso
+Aug 09 09:50:43.937: vmx| DICT vmWizard.installMediaType = iso
+Aug 09 09:50:43.937: vmx| DICT vmWizard.mruISO1.isoLocation = D:\company\download\ubuntu-12.04.2-desktop-i386.iso
+Aug 09 09:50:43.937: vmx| DICT  hint.vmui.showAllUSBDevs = FALSE
+Aug 09 09:50:43.937: vmx| DICT          pref.view.navBar = TRUE
+Aug 09 09:50:43.937: vmx| DICT    pref.view.navBar.width = 167
+Aug 09 09:50:43.937: vmx| DICT   pref.view.toolbars.list = _SEP_,POWER_OFF,SUSPEND,POWER_ON,RESET,POLICIES,PKG_SETTINGS,NEW_PKG,POCKET_ACE,PREVIEW,SNAPSHOT,REVERT,SNAPSHOT_MANAGER,FAVORITES,QUICK_SWITCH,FULL_SCREEN,UNITY,SUMMARY,APPLIANCE,CONSOLE,QUICK_MINIMIZE,FILE_EXIT,INSTANCE_DETAILS,INSTANCE_REACT,INSTANCE_DEACT,REPLAY_PLAY,REPLAY_RECORD
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.currentObj.path = /vm/#7887b9881274bab2/
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.currentObj.type = vm
+Aug 09 09:50:43.937: vmx| DICT pref.ws.openedObj0.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj0.name = Home
+Aug 09 09:50:43.937: vmx| DICT pref.ws.openedObj1.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj1.type = vm
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj1.path = /vm/#b6b544ffcbe35532/
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj1.file = F:\Ubuntu.vmx
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj1.name = Ubuntu
+Aug 09 09:50:43.937: vmx| DICT  pref.ws.openedObj.maxNum = 3
+Aug 09 09:50:43.937: vmx| DICT       pref.placement.left = -27
+Aug 09 09:50:43.937: vmx| DICT        pref.placement.top = -17
+Aug 09 09:50:43.937: vmx| DICT      pref.placement.right = 952
+Aug 09 09:50:43.937: vmx| DICT     pref.placement.bottom = 719
+Aug 09 09:50:43.937: vmx| DICT          pref.tip.startup = FALSE
+Aug 09 09:50:43.937: vmx| DICT            pref.tip.index = 1
+Aug 09 09:50:43.937: vmx| DICT webUpdate.updatesAvailable = TRUE
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.menu.position.ix = 0
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.menu.position.newLine = TRUE
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.power.position.ix = 5
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.power.position.newLine = TRUE
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.power.position.length = 100
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.snapshot.position.ix = 1
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.snapshot.position.length = 75
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.acem.position.ix = 2
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.acem.position.length = 123
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.view.position.ix = 3
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.view.position.length = 197
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.replay.position.ix = 4
+Aug 09 09:50:43.937: vmx| DICT pref.view.toolbars.replay.position.length = 1106
+Aug 09 09:50:43.937: vmx| DICT pref.ws.openedObj2.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj2.type = vm
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj2.path = /vm/#7887b9881274bab2/
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj2.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj2.name = Ubuntu
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj3.type = vm
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj3.path = /vm/#7887b9881274bab2/
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj3.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj3.name = Ubuntu
+Aug 09 09:50:43.937: vmx| DICT hint.cui.toolsInfoBar.Suppressible = FALSE
+Aug 09 09:50:43.937: vmx| DICT pref.ws.openedObj3.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj4.type = vm
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj4.path = /vm/#b6b544ffcbe35532/
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj4.file = F:\Ubuntu.vmx
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj4.name = Ubuntu
+Aug 09 09:50:43.937: vmx| DICT pref.autoFitGuestToWindow = TRUE
+Aug 09 09:50:43.937: vmx| DICT pref.snapshotManager.left = 250
+Aug 09 09:50:43.937: vmx| DICT  pref.snapshotManager.top = 64
+Aug 09 09:50:43.937: vmx| DICT pref.snapshotManager.right = 859
+Aug 09 09:50:43.937: vmx| DICT pref.snapshotManager.bottom = 578
+Aug 09 09:50:43.937: vmx| DICT  pref.sharedFolder.maxNum = 3
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder0.enabled = TRUE
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder0.vmPath = /vm/#7887b9881274bab2/
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder0.guestName = temp
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder0.hostPath = F:\temp
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder1.enabled = TRUE
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder1.vmPath = /vm/#7887b9881274bab2/
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder1.guestName = prgram-back
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder1.hostPath = E:\prgram-back
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj5.type = vm
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj5.path = /vm/#7887b9881274bab2/
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj5.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 09 09:50:43.937: vmx| DICT   pref.ws.openedObj5.name = Ubuntu
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder2.enabled = FALSE
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder2.vmPath = /vm/#b6b544ffcbe35532/
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder2.guestName = temp
+Aug 09 09:50:43.937: vmx| DICT pref.sharedFolder2.hostPath = F:\temp
+Aug 09 09:50:43.937: vmx| DICT --- USER DEFAULTS
+Aug 09 09:50:43.937: vmx| DICT --- HOST DEFAULTS
+Aug 09 09:50:43.937: vmx| DICT --- SITE DEFAULTS
+Aug 09 09:50:43.937: vmx| DICT --- COMMAND LINE
+Aug 09 09:50:43.937: vmx| DICT             gui.available = TRUE
+Aug 09 09:50:43.937: vmx| DICT              guestinfo.ip = unknown
+Aug 09 09:50:43.937: vmx| DICT --- CONFIGURATION
+Aug 09 09:50:43.937: vmx| DICT            config.version = 8
+Aug 09 09:50:43.937: vmx| DICT         virtualHW.version = 7
+Aug 09 09:50:43.937: vmx| DICT                  numvcpus = 2
+Aug 09 09:50:43.937: vmx| DICT             scsi0.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT          scsi0.virtualDev = lsilogic
+Aug 09 09:50:43.937: vmx| DICT                   memsize = 512
+Aug 09 09:50:43.937: vmx| DICT           scsi0:0.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT          scsi0:0.fileName = Ubuntu.vmdk
+Aug 09 09:50:43.937: vmx| DICT            ide1:0.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT           ide1:0.fileName = D:\company\download\ubuntu-10.04.3-desktop-i386.iso
+Aug 09 09:50:43.937: vmx| DICT         ide1:0.deviceType = cdrom-image
+Aug 09 09:50:43.937: vmx| DICT        floppy0.autodetect = TRUE
+Aug 09 09:50:43.937: vmx| DICT         ethernet0.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT  ethernet0.connectionType = nat
+Aug 09 09:50:43.937: vmx| DICT   ethernet0.wakeOnPcktRcv = FALSE
+Aug 09 09:50:43.937: vmx| DICT               usb.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT              ehci.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT             sound.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT            sound.fileName = -1
+Aug 09 09:50:43.937: vmx| DICT          sound.autodetect = TRUE
+Aug 09 09:50:43.937: vmx| DICT              mks.enable3d = TRUE
+Aug 09 09:50:43.937: vmx| DICT        pciBridge0.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT        pciBridge4.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT     pciBridge4.virtualDev = pcieRootPort
+Aug 09 09:50:43.937: vmx| DICT      pciBridge4.functions = 8
+Aug 09 09:50:43.937: vmx| DICT        pciBridge5.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT     pciBridge5.virtualDev = pcieRootPort
+Aug 09 09:50:43.937: vmx| DICT      pciBridge5.functions = 8
+Aug 09 09:50:43.937: vmx| DICT        pciBridge6.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT     pciBridge6.virtualDev = pcieRootPort
+Aug 09 09:50:43.937: vmx| DICT      pciBridge6.functions = 8
+Aug 09 09:50:43.937: vmx| DICT        pciBridge7.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT     pciBridge7.virtualDev = pcieRootPort
+Aug 09 09:50:43.937: vmx| DICT      pciBridge7.functions = 8
+Aug 09 09:50:43.937: vmx| DICT             vmci0.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT    roamingVM.exitBehavior = go
+Aug 09 09:50:43.937: vmx| DICT               displayName = Ubuntu
+Aug 09 09:50:43.937: vmx| DICT                   guestOS = ubuntu
+Aug 09 09:50:43.937: vmx| DICT                     nvram = Ubuntu.nvram
+Aug 09 09:50:43.937: vmx| DICT virtualHW.productCompatibility = hosted
+Aug 09 09:50:43.937: vmx| DICT     ft.secondary0.enabled = TRUE
+Aug 09 09:50:43.937: vmx| DICT      tools.upgrade.policy = useGlobal
+Aug 09 09:50:43.937: vmx| DICT        extendedConfigFile = Ubuntu.vmxf
+Aug 09 09:50:43.937: vmx| DICT          floppy0.fileName = A:
+Aug 09 09:50:43.937: vmx| DICT        checkpoint.vmState = 
+Aug 09 09:50:43.937: vmx| DICT     ide1:0.startConnected = TRUE
+Aug 09 09:50:43.937: vmx| DICT     ethernet0.addressType = generated
+Aug 09 09:50:43.937: vmx| DICT             uuid.location = 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:50:43.937: vmx| DICT                 uuid.bios = 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:50:43.937: vmx| DICT    debugStub.linuxOffsets = 0x0,0xffffffff,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0
+Aug 09 09:50:43.937: vmx| DICT              scsi0:0.redo = 
+Aug 09 09:50:43.937: vmx| DICT   usb.autoConnect.device0 = 
+Aug 09 09:50:43.937: vmx| DICT  vmotion.checkpointFBSize = 134217728
+Aug 09 09:50:43.937: vmx| DICT  pciBridge0.pciSlotNumber = 17
+Aug 09 09:50:43.937: vmx| DICT  pciBridge4.pciSlotNumber = 21
+Aug 09 09:50:43.937: vmx| DICT  pciBridge5.pciSlotNumber = 22
+Aug 09 09:50:43.937: vmx| DICT  pciBridge6.pciSlotNumber = 23
+Aug 09 09:50:43.937: vmx| DICT  pciBridge7.pciSlotNumber = 24
+Aug 09 09:50:43.937: vmx| DICT       scsi0.pciSlotNumber = 16
+Aug 09 09:50:43.937: vmx| DICT         usb.pciSlotNumber = 32
+Aug 09 09:50:43.937: vmx| DICT   ethernet0.pciSlotNumber = 33
+Aug 09 09:50:43.937: vmx| DICT       sound.pciSlotNumber = 34
+Aug 09 09:50:43.937: vmx| DICT        ehci.pciSlotNumber = 35
+Aug 09 09:50:43.937: vmx| DICT       vmci0.pciSlotNumber = 36
+Aug 09 09:50:43.937: vmx| DICT ethernet0.generatedAddress = 00:0c:29:fe:82:17
+Aug 09 09:50:43.937: vmx| DICT ethernet0.generatedAddressOffset = 0
+Aug 09 09:50:43.937: vmx| DICT                  vmci0.id = 452887063
+Aug 09 09:50:43.937: vmx| DICT       tools.remindInstall = FALSE
+Aug 09 09:50:43.937: vmx| DICT            tools.syncTime = FALSE
+Aug 09 09:50:43.937: vmx| DICT isolation.tools.hgfs.disable = FALSE
+Aug 09 09:50:43.937: vmx| DICT       sharedFolder.maxNum = 1
+Aug 09 09:50:43.937: vmx| DICT     sharedFolder0.present = TRUE
+Aug 09 09:50:43.937: vmx| DICT     sharedFolder0.enabled = TRUE
+Aug 09 09:50:43.937: vmx| DICT  sharedFolder0.readAccess = TRUE
+Aug 09 09:50:43.937: vmx| DICT sharedFolder0.writeAccess = TRUE
+Aug 09 09:50:43.937: vmx| DICT    sharedFolder0.hostPath = F:\temp
+Aug 09 09:50:43.937: vmx| DICT   sharedFolder0.guestName = temp
+Aug 09 09:50:43.937: vmx| DICT  sharedFolder0.expiration = never
+Aug 09 09:50:43.937: vmx| DICT --- USER DEFAULTS
+Aug 09 09:50:43.937: vmx| DICT --- HOST DEFAULTS
+Aug 09 09:50:43.937: vmx| DICT --- SITE DEFAULTS
+Aug 09 09:50:43.937: vmx| DICT --- GLOBAL SETTINGS
+Aug 09 09:50:44.015: vmx| MONITOR MODE: allowed modes          : BT
+Aug 09 09:50:44.015: vmx| MONITOR MODE: user requested modes   : BT HV HWMMU
+Aug 09 09:50:44.015: vmx| MONITOR MODE: guestOS preferred modes: HWMMU BT HV
+Aug 09 09:50:44.015: vmx| MONITOR MODE: filtered list          : BT
+Aug 09 09:50:44.015: vmx| HV Settings: virtual exec = 'software'; virtual mmu = 'software'
+Aug 09 09:50:44.359: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 09:50:44.359: vmx| Host display topology 1024x768.
+Aug 09 09:50:44.359: vmx| SVGA using 2360x1770.
+Aug 09 09:50:44.406: vmx| WSSCAN: reserved mem (in MB) min=32 max=832 recommended=832
+Aug 09 09:50:44.406: vmx| WSSCAN: used rec mem (in MB) 832
+Aug 09 09:50:44.406: vmx| PSHARE: scan rate min 16 max 400
+Aug 09 09:50:44.406: vmx| WSSCAN: Overhead 165174 paged 27158 nonpaged 32768 maxFBSize
+Aug 09 09:50:44.453: vmx| WSSCAN 1 1 171599 179791 212992 204534 50 0
+Aug 09 09:50:44.546: vmx| LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.6.0.200907' 
+Aug 09 09:50:44.843: vmx| Monitor_PowerOn: hostedVSMPMaxSkew is 1500 us (2400030 cycles)
+Aug 09 09:50:44.843: vmx| Monitor_PowerOn: hostedVSMPYieldPoint is 50 us (80001 cycles)
+Aug 09 09:50:44.843: vmx| vmm32-modules: [vmm.vmm32 .data:0x2b000-0x728 .sdata:0x2c000-0x4e4 .statvars:0x2d000-0x3a0 .peer:0x2e000-0x261c0 .shared:0x56000-0x12ac0 .bss:0x6a000-0x5c88 .rodata:0x71000-0xb310 .text:0x7d000-0x5906d .kstatvars:0x3000-0x0, mmu-pae.vmm32 .rodata:0x7c310-0x44 .data:0x2b728-0xc .peer:0x541c0-0x16c0 .shared:0x68ac0-0x2c0 .bss:0x6fca0-0x518 .text:0xd6070-0xa4e7 .comment:0x40000d26-0x10e .statvars:0x2000-0x0 .kstatvars:0x2000-0x0 .scb:0x400038a0-0x180 .shared_meta:0x40003c00-0x390 .peer_meta:0x40001020-0x210, sharedmmu-none.vmm32 .text:0xe0558-0x32 .comment:0x40000e34-0x12, pv-none.vmm32 .shared:0x68d80-0x180 .bss:0x701c0-0x84 .text:0xe058c-0xe6 .comment:0x40000e46-0x48 .shared_meta:0x40003f90-0x90, vprobe-none.vmm32 .text:0xe0674-0x79 .comment:0x40000e8e-0x12, hv-none.vmm32 .rodata:0x7c354-0x4 .data:0x1000-0x0 .peer:0x1000-0x0 .shared:0x1000-0x0 .bss:0x1000-0x0 .text:0xe06f0-0x2d .comment:0x40000ea0-0x12 .statvars:0x1000-0x0 .kstatvars:0x1000-0x0, gphys-sw.vmm32 .peer:0x55880-0x40 .shared:0x68f00-0x140 .bss:0x2000-0x0 .text:0xe0720-0xb43 .comment:0x40000eb2-0x12 .scb:0x40003a20-0x60 .shared_meta:0x40004020-0x2a0 .peer_meta:0x40001230-0x60, vassert-none.vmm32 .text:0xe1264-0xf .comment:0x40000ec4-0x12, vmsafe-none.vmm32 .text:0xe1274-0xd .comment:0x40000ed6-0x12, <MonSrcFile> .rodata:0x7c358-0x36c]
+Aug 09 09:50:44.843: vmx| KHZEstimate 1600020
+Aug 09 09:50:44.843: vmx| MHZEstimate 1600
+Aug 09 09:50:44.843: vmx| NumVCPUs 2
+Aug 09 09:50:44.906: vmx| PShare: enabled 1, scanRate 32, checkRate 16
+Aug 09 09:50:44.906: vmx| UUID: location-UUID is 56 4d 26 71 5f a3 44 47-22 d4 31 7b c5 d7 dd 5b
+Aug 09 09:50:44.906: vmx| UUID: location-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:50:44.906: vmx| UUID: location-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:50:44.906: vmx| AIOGNRC: numThreads=18 ide=0, scsi=1, passthru=1
+Aug 09 09:50:44.906: vmx| WORKER: Creating new group with numThreads=18 (18)
+Aug 09 09:50:44.906: vmx| Replay State = 0
+Aug 09 09:50:44.906: vmx| minDEThreshold: 70
+Aug 09 09:50:44.937: vmx| MM: Using partialmap, 131072 pages AC 0 CE 1 TM 0 DOHU 0
+Aug 09 09:50:44.937: vmx| UUID: location-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:50:44.968: vmx| MM: using 'F:\564d72a5-6629-defd-87ec-fee81afe8217.vmem' as a paging file
+Aug 09 09:50:44.968: vmx| Opened paging file F:\564d72a5-6629-defd-87ec-fee81afe8217.vmem
+Aug 09 09:50:44.984: vmx| Mapped mainmem as pageable
+Aug 09 09:50:44.984: vmx| MMCHK: Disabling checks which are not forced, cannot do checks on certain processors.
+Aug 09 09:50:44.984: vmx| MStat: Creating Stat vm.uptime
+Aug 09 09:50:44.984: vmx| MStat: Creating Stat vm.suspendTime
+Aug 09 09:50:44.984: vmx| MStat: Creating Stat vm.powerOnTimeStamp
+Aug 09 09:50:45.000: vmx| VMXAIOMGR: Using: simple=Generic unbuf=Compl
+Aug 09 09:50:45.015: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 09:50:45.031: vmx| DISK: OPEN scsi0:0 'F:\Ubuntu.vmdk' persistent R[]
+Aug 09 09:50:45.328: vmx| DISKLIB-DSCPTR: Opened [0]: "Ubuntu.vmdk" (0xa)
+Aug 09 09:50:45.328: vmx| DISKLIB-LINK  : Opened 'F:\Ubuntu.vmdk' (0xa): monolithicSparse, 62914560 sectors / 30 GB.
+Aug 09 09:50:45.328: vmx| DISKLIB-LIB   : Opened "F:\Ubuntu.vmdk" (flags 0xa).
+Aug 09 09:50:45.328: vmx| DiskGetGeometry: Reading of disk partition table
+Aug 09 09:50:45.328: vmx| DISK: OPEN 'F:\Ubuntu.vmdk' Geo (3916/255/63) BIOS Geo (3916/255/63) freeSpace=27033 MB, lsilogic
+Aug 09 09:50:45.484: vmx| TimeTracker host to guest rate conversion 8901876806776 @ 1600020000Hz -> 8901876806776 @ 1600020000Hz
+Aug 09 09:50:45.484: vmx| TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + 0
+Aug 09 09:50:45.484: vmx| USB: Initializing 'Generic' backend
+Aug 09 09:50:45.500: vmx| USBGW: Connected to HCMON version 3.0
+Aug 09 09:50:45.500: vmx| USB: Initializing 'Virtual Hub' backend
+Aug 09 09:50:45.500: vmx| USB: Initializing 'Virtual Mouse' backend
+Aug 09 09:50:45.515: vmx| USB: Initializing 'Virtual Keyboard' backend
+Aug 09 09:50:45.515: vmx| USB: Initializing 'Virtual Mass Storage' backend
+Aug 09 09:50:45.515: vmx| USB: Initializing 'Virtual CCID' backend
+Aug 09 09:50:45.562: usbCCIDEnumCards| USB-CCID: Card enum thread created.
+Aug 09 09:50:45.562: vmx| WORKER: Creating new group with numThreads=1 (19)
+Aug 09 09:50:45.640: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.vmx).
+Aug 09 09:50:45.640: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.vmdk).
+Aug 09 09:50:45.640: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.vmsd).
+Aug 09 09:50:45.640: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.nvram).
+Aug 09 09:50:45.718: vmx| Host display topology 1024x768.
+Aug 09 09:50:45.718: vmx| SVGA using 2360x1770.
+Aug 09 09:50:45.843: vmx| WORKER: Creating new group with numThreads=1 (20)
+Aug 09 09:50:45.890: vmx| MKS REMOTE Loading VNC Configuration from VM config file
+Aug 09 09:50:45.890: vmx| VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+Aug 09 09:50:45.890: vmx| VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+Aug 09 09:50:45.906: vmx| NetPkt: checksum cycles/kB: C=69 asm1=674 asm2=680
+Aug 09 09:50:45.906: vmx| NetPkt: copy and sum cycles/kB: C=1421 asm1=679 asm2=680
+Aug 09 09:50:45.921: vmx| Chipset version: 0x13
+Aug 09 09:50:45.968: vmx| DISKUTIL: ide1:0 : capacity=0
+Aug 09 09:50:45.968: vmx| DISKUTIL: ide1:0 : geometry=0/0/0
+Aug 09 09:50:45.984: vmx| SCSI0: UNTAGGED commands will be converted to ORDER tags.
+Aug 09 09:50:45.984: vmx| DISKUTIL: scsi0:0 : capacity=62914560
+Aug 09 09:50:45.984: vmx| DISKUTIL: scsi0:0 : geometry=3916/255/63
+Aug 09 09:50:46.015: vmx| SVGA: Advertising 3D acceleration.
+Aug 09 09:50:46.015: vmx| Host display topology 1024x768 with 1 displays.
+Aug 09 09:50:46.015: vmx| SVGA using 2360x1770.
+Aug 09 09:50:46.015: vmx| USB: Initializing 'UHCI' host controller
+Aug 09 09:50:46.031: vmx| Ethernet0 MAC Address: 00:0c:29:fe:82:17
+Aug 09 09:50:46.031: vmx| USB: Initializing 'EHCI' host controller
+Aug 09 09:50:46.046: vmx| MStat: Creating Stat vm.heartbeat
+Aug 09 09:50:46.062: vmx| TOOLS INSTALL initializing state to IDLE on power on.
+Aug 09 09:50:46.078: vmx| PTSC to VMI Wallclock (nsec) 8902869994336 @ 1600020000Hz -> 1376013046000000000 @ 1000000000Hz
+Aug 09 09:50:46.078: vmx| PTSC to VMI Wallclock (nsec) ((x * 2684321005) >> 32) + 1376007481775808390
+Aug 09 09:50:46.078: vmx| PTSC to ParaTime RealCycles 0 @ 1600020000Hz -> 0 @ 1600020000Hz
+Aug 09 09:50:46.078: vmx| PTSC to ParaTime RealCycles ((x * 1) >> 0) + 0
+Aug 09 09:50:46.078: vmx| ParaTime RealCycles to PTSC 0 @ 1600020000Hz -> 0 @ 1600020000Hz
+Aug 09 09:50:46.078: vmx| ParaTime RealCycles to PTSC ((x * 1) >> 0) + 0
+Aug 09 09:50:46.078: vmx| memoryHotplug: Current size = 512MB, Minimum size = 512MB, Maximum size = 512MB
+Aug 09 09:50:46.078: vmx| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Aug 09 09:50:46.078: vmx| memoryHotplug: Entry[1]: 00000000001000A0-0000000020000000
+Aug 09 09:50:46.093: vmx| guestCpuFeatures = 0x404001f8
+Aug 09 09:50:46.093: vmx| guestCPUID vendor: GenuntelineI
+Aug 09 09:50:46.093: vmx| guestCPUID   name: Intel(R) Pentium(R) Dual  CPU  E2140  @ 1.60GHz
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000000, 0: 0x0000000a 0x756e6547 0x6c65746e 0x49656e69
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000001, 0: 0x000006fd 0x00010800 0x80000201 0x0febfbff
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000220
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000001 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Aug 09 09:50:46.093: vmx| guestCPUID level 40000000, 0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+Aug 09 09:50:46.093: vmx| guestCPUID level 40000010, 0: 0x00186a14 0x000101d0 0x00000000 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000000 0x00100000
+Aug 09 09:50:46.093: vmx| guestCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x6e655020 0x6d756974
+Aug 09 09:50:46.093: vmx| guestCPUID level 80000003, 0: 0x20295228 0x6c617544 0x50432020 0x45202055
+Aug 09 09:50:46.093: vmx| guestCPUID level 80000004, 0: 0x30343132 0x20402020 0x30362e31 0x007a4847
+Aug 09 09:50:46.093: vmx| guestCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:50:46.093: vmx| guestCPUID level 80000008, 0: 0x00003028 0x00000000 0x00000000 0x00000000
+Aug 09 09:50:46.125: vmx| BusMemSample: initPercent 75 touched 98304
+Aug 09 09:50:46.140: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '1'
+Aug 09 09:50:46.140: vmx| TOOLS received request in VMX to set option 'copypaste' -> '1'
+Aug 09 09:50:46.187: vmx| VMXVmdbLoadUsbDevices: New set of 0 USB devices
+Aug 09 09:50:46.203: vmx| VMX_PowerOn: ModuleTable_PowerOn = 1
+Aug 09 09:50:46.203: vmx| VMX setting maximum IPC write buffers to 0 packets, 0 bytes
+Aug 09 09:50:46.203: mks| Async MKS thread is alive
+Aug 09 09:50:46.843: vmx| DnDRegisterRpc: DnD rpc already set to 1
+Aug 09 09:50:46.843: vmx| CopyPasteRegisterRpc: already set to 1
+Aug 09 09:50:46.843: vcpu-0| APIC: version = 0x14, max LVT = 5
+Aug 09 09:50:46.843: vcpu-0| APIC: LDR = 0x1000000, DFR = 0xffffffff
+Aug 09 09:50:46.906: vcpu-0| guestCpuFeatures = 0x404001f8
+Aug 09 09:50:46.921: vcpu-0| CPU reset: hard
+Aug 09 09:50:46.921: vcpu-0| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Aug 09 09:50:46.921: vcpu-0| memoryHotplug: Entry[1]: 00000000001000A0-0000000020000000
+Aug 09 09:50:47.046: vcpu-0| SOUND 469.610512 PCISoundWin32 mixerGetLineInfo error 11
+Aug 09 09:50:47.093: vcpu-0| VNET: Notification enabled for Ethernet0
+Aug 09 09:50:47.093: vcpu-0| FLOPPYLIB-MAIN : Using autodetect backend A: for floppy0.
+Aug 09 09:51:00.140: vcpu-0| CDROM: Connecting ide1:0 to 'D:\company\download\ubuntu-10.04.3-desktop-i386.iso'. img=1 raw=0 remote=0
+Aug 09 09:51:00.171: vcpu-0| Transitioned vmx/execState/val to poweredOn
+Aug 09 09:51:00.171: mks| MKSHostOps_Exit3D: 0, 1
+Aug 09 09:51:00.234: vmx| VMXVmdbLoadUsbDevices: New set of 5 USB devices
+Aug 09 09:51:00.234: vmx| USB: Found device [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage autoclean:1]
+Aug 09 09:51:00.234: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:51:00.234: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:51:00.234: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:51:00.234: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 09:51:00.359: mks| Connecting to window system.
+Aug 09 09:51:00.531: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 09:51:00.546: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 09:51:00.625: vmx| [Vmdb_Set] Stale data for path: /vm/#_VMX/mks/grabState/new/ (current value '_UNSET_' -> new value '../req/#cc/') [4->4]
+Aug 09 09:51:00.687: vcpu-0| sz=2992080
+Aug 09 09:51:00.687: vcpu-1| APIC: version = 0x14, max LVT = 5
+Aug 09 09:51:00.687: vcpu-1| APIC: LDR = 0x1000000, DFR = 0xffffffff
+Aug 09 09:51:00.750: vcpu-1| guestCpuFeatures = 0x404001f8
+Aug 09 09:51:00.750: vcpu-1| CPU reset: hard
+Aug 09 09:51:00.796: vcpu-1| sz=2994144
+Aug 09 09:51:00.796: vcpu-0| vmm32 initialized: Releasebuild-126130. cflags: 0x00000008.00040280.03418084.00002800
+Aug 09 09:51:00.828: vcpu-1| vmm32 initialized: Releasebuild-126130. cflags: 0x00000008.00040280.03418084.00002800
+Aug 09 09:51:00.921: vcpu-0| MonitorInitNumaUnmapVMM32
+Aug 09 09:51:01.218: vcpu-1| CPU reset: soft
+Aug 09 09:51:01.781: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0x0) and 0xd8000000(0x0)
+Aug 09 09:51:01.781: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 09:51:02.062: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 09:51:02.062: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 09:51:02.109: vcpu-0| SVGA: Registering IOSpace at 0x10d0
+Aug 09 09:51:02.109: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 09:51:02.125: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.125: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.125: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.125: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.125: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.125: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.125: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.140: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.140: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.140: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.140: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.140: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.140: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.140: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.140: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.140: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.156: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.156: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.156: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.156: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.156: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.156: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.156: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.156: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.156: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.171: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.171: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.171: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.171: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.171: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.171: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.171: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.171: vcpu-1| CPU reset: soft
+Aug 09 09:51:02.218: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 09:51:02.296: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 09:51:02.500: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.500: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.500: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.500: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.500: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.515: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.515: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.515: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.515: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.515: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.515: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.515: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.515: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.515: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.531: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.531: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.531: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.531: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.531: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.531: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.531: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.531: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.531: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.546: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.546: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.546: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.546: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.546: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.546: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.546: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.546: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.546: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:02.562: vcpu-0| DISKUTIL: scsi0:0 : geometry=3916/255/63
+Aug 09 09:51:02.562: vcpu-0| SCSI0: RESET BUS
+Aug 09 09:51:02.625: vcpu-1| CPU reset: soft
+Aug 09 09:51:02.671: vcpu-0| BIOS-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:51:03.156: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 09:51:08.718: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:08.718: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:08.734: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:08.750: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:08.750: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:08.765: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:08.765: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:08.765: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:13.343: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:13.343: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:13.343: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:13.359: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:51:15.859: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 09:51:16.515: vcpu-1| CPU reset: soft
+Aug 09 09:51:17.062: vcpu-1| SVGA: Unregistering IOSpace at 0x10d0
+Aug 09 09:51:17.062: vcpu-1| SVGA: Registering IOSpace at 0xfffffff0
+Aug 09 09:51:17.062: vcpu-1| SVGA: Unregistering IOSpace at 0xfffffff0
+Aug 09 09:51:17.062: vcpu-1| SVGA: Registering IOSpace at 0x10d0
+Aug 09 09:51:17.125: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.125: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.140: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.156: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.781: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 09:51:17.812: vcpu-1| UHCI: HCReset
+Aug 09 09:51:18.187: vcpu-1| UHCI: HCReset
+Aug 09 09:51:18.203: mks| SVGA: display status changed, using optimizations for local consoles.
+Aug 09 09:51:19.375: vcpu-1| CDROM ide1:0: CMD 0x52 (*UNKNOWN (0x52)*) FAILED (key 0x5 asc 0x20 ascq 0)
+Aug 09 09:51:20.000: vcpu-0| SCSI0: RESET BUS
+Aug 09 09:51:20.390: vcpu-0| SCSI0: RESET BUS
+Aug 09 09:51:20.421: vcpu-1| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Aug 09 09:51:20.421: vcpu-1| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Aug 09 09:51:20.437: vcpu-1| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Aug 09 09:51:20.453: vcpu-0| SCSI DEVICE (scsi0:0): INQUIRY request with EVPD set
+Aug 09 09:51:41.562: vcpu-0| SCSI DEVICE (scsi0:0): INQUIRY request with EVPD set
+Aug 09 09:51:41.562: vcpu-0| VIDE: Truncating 0x46 from 65530 bytes to 32768
+Aug 09 09:51:41.562: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 09:51:41.906: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 09:51:42.484: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 09:51:42.656: vcpu-1| VMMouse: CMD Read ID
+Aug 09 09:51:42.656: vcpu-1| VMMouse: CMD Disable
+Aug 09 09:51:42.656: vcpu-1| VMMouse: Disabling VMMouse mode
+Aug 09 09:51:42.671: vcpu-0| VMMouse: CMD Read ID
+Aug 09 09:51:42.671: vcpu-0| VMMouse: CMD Disable
+Aug 09 09:51:42.671: vcpu-0| VMMouse: Disabling VMMouse mode
+Aug 09 09:51:42.687: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 09:51:42.687: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 09:51:42.687: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 09:51:42.687: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 09:51:42.687: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 09:51:42.687: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 09:51:42.828: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 09:51:43.937: vcpu-0| SOUND 526.461444 PCISoundWin32 mixerGetLineInfo error 11
+Aug 09 09:51:48.062: mks| SVGA: enabling escape command
+Aug 09 09:51:48.250: vcpu-1| Guest OS = 0x5008
+Aug 09 09:51:48.265: vcpu-1| Guest display topology changed: numDisplays 1
+Aug 09 09:51:48.312: mks| HostOps hideCursor before defineCursor!
+Aug 09 09:51:49.437: vcpu-1| VMMouse: CMD Read ID
+Aug 09 09:51:49.437: vcpu-1| VMMouse: CMD Disable
+Aug 09 09:51:49.437: vcpu-1| VMMouse: Disabling VMMouse mode
+Aug 09 09:51:49.515: vcpu-1| VMMouse: CMD Read ID
+Aug 09 09:51:52.750: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 09:51:52.750: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 09:51:52.750: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 09:51:52.750: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 09:52:03.031: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:52:03.031: vmx| scsi0:0: Command READ(10) took 5.572 seconds (ok)
+Aug 09 09:52:03.046: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:52:03.062: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:52:03.062: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:52:03.734: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 09:52:03.953: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 1 start feature 0
+Aug 09 09:52:09.078: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 09:52:10.968: vcpu-0| GuestRpc: Channel 0, guest application toolbox.
+Aug 09 09:52:10.968: vcpu-0| TOOLS autoupgrade protocol version 2
+Aug 09 09:52:10.984: vcpu-0| TOOLS ToolsCapabilityGuestTempDirectory received 1 /tmp/vmware-root
+Aug 09 09:52:11.000: vcpu-0| TOOLS ToolsCapabilityGuestConfDirectory received /etc/vmware-tools
+Aug 09 09:52:11.000: vcpu-0| TOOLS setting the tools version to '7428'
+Aug 09 09:52:11.015: vcpu-0| TOOLS soft reset detected.
+Aug 09 09:52:11.015: vcpu-0| TOOLS Setting autoupgrade-checked FALSE.
+Aug 09 09:52:11.234: vcpu-1| Guest: toolbox: Version: build-126130
+Aug 09 09:52:11.234: vcpu-1| TOOLS unified loop capability requested by 'toolbox'; now sending options via TCLO
+Aug 09 09:52:11.453: vcpu-1| Compared tools manifest from host and from the guest. Status = 2.
+Aug 09 09:52:11.453: vcpu-1| TOOLS installed legacy version 7428, available legacy version 7428
+Aug 09 09:52:11.453: vcpu-1| TOOLS manifest update status is 2 (1-out of date, 2-ok, 3-unknown)
+Aug 09 09:52:11.453: vcpu-1| TOOLS will not be autoupgraded.
+Aug 09 09:52:11.453: vcpu-1| TOOLS Setting autoupgrade-checked TRUE.
+Aug 09 09:52:16.203: vcpu-0| VMMouse: CMD Received 0x53424152 with 4 words of unread data!
+Aug 09 09:52:16.218: mks| MKS switching absolute mouse on
+Aug 09 09:52:56.078: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 09:52:56.093: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 40
+Aug 09 09:52:56.093: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 32
+Aug 09 09:52:56.093: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 09:52:56.203: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 09:59:27.265: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOff with reset
+Aug 09 09:59:27.265: vmx| 
+Aug 09 09:59:27.265: vmx| 
+Aug 09 09:59:27.265: vmx| VMXRequestReset
+Aug 09 09:59:27.265: vmx| Stopping VCPU threads...
+Aug 09 09:59:27.359: mks| Detaching from window system.
+Aug 09 09:59:27.375: mks| MKSHostOps_Exit3D: 1, 0
+Aug 09 09:59:27.375: mks| Async MKS thread is exiting
+Aug 09 09:59:27.375: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '0'
+Aug 09 09:59:27.375: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Aug 09 09:59:27.375: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Aug 09 09:59:27.406: vmx| MKS local poweroff
+Aug 09 09:59:27.468: usbCCIDEnumCards| USB-CCID: Card enum thread exiting.
+Aug 09 09:59:27.468: vmx| scsi0:0: numIOs = 11721 numMergedIOs = 699 numSplitIOs = 101 (12.6%)
+Aug 09 09:59:27.718: vmx| AIOWIN32C: asyncOps=9514 syncOps=128 bufSize=4Kb fixedOps=5 sgOps=9486 sgOn=1
+Aug 09 09:59:27.718: aioCompletion| AIO thread processed 9514 completions
+Aug 09 09:59:27.750: vmx| WORKER: asyncOps=70 maxActiveOps=1 maxPending=0 maxCompleted=0
+Aug 09 09:59:27.859: vmx| PowerOn
+Aug 09 09:59:27.859: vmx| VMX_PowerOn: VMX build 126130, UI build 126130
+Aug 09 09:59:27.859: vmx| Host: WIN32 highest NUMA node 0
+Aug 09 09:59:27.859: vmx| Host: WIN32 NUMA node 0, CPU mask 0x0000000000000003
+Aug 09 09:59:27.875: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 09:59:27.875: vmx| HOSTINFO: Seeing Intel CPU, numCoresPerCPU 2 numThreadsPerCore 1.
+Aug 09 09:59:27.875: vmx| HOSTINFO: This machine has 1 physical CPUS, 2 total cores, and 2 logical CPUs.
+Aug 09 09:59:27.875: vmx| HOST Windows version 5.1, build 2600, platform 2, "Service Pack 3", SMP
+Aug 09 09:59:27.875: vmx| DICT --- USER PREFERENCES
+Aug 09 09:59:27.875: vmx| DICT       pref.eula.0.appName = VMware Workstation
+Aug 09 09:59:27.875: vmx| DICT   pref.eula.0.buildNumber = 126130
+Aug 09 09:59:27.875: vmx| DICT     pref.mruDest0.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT  pref.mruDest0.destString = 
+Aug 09 09:59:27.875: vmx| DICT        pref.mruDest0.user = 
+Aug 09 09:59:27.875: vmx| DICT     pref.mruDest1.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT  pref.mruDest1.destString = 
+Aug 09 09:59:27.875: vmx| DICT        pref.mruDest1.user = 
+Aug 09 09:59:27.875: vmx| DICT     pref.mruDest2.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT  pref.mruDest2.destString = 
+Aug 09 09:59:27.875: vmx| DICT        pref.mruDest2.user = 
+Aug 09 09:59:27.875: vmx| DICT     pref.mruDest3.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT  pref.mruDest3.destString = 
+Aug 09 09:59:27.875: vmx| DICT        pref.mruDest3.user = 
+Aug 09 09:59:27.875: vmx| DICT     pref.mruDest4.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT  pref.mruDest4.destString = 
+Aug 09 09:59:27.875: vmx| DICT        pref.mruDest4.user = 
+Aug 09 09:59:27.875: vmx| DICT     pref.mruDest5.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT  pref.mruDest5.destString = 
+Aug 09 09:59:27.875: vmx| DICT        pref.mruDest5.user = 
+Aug 09 09:59:27.875: vmx| DICT     pref.mruDest6.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT  pref.mruDest6.destString = 
+Aug 09 09:59:27.875: vmx| DICT        pref.mruDest6.user = 
+Aug 09 09:59:27.875: vmx| DICT     pref.mruDest7.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT  pref.mruDest7.destString = 
+Aug 09 09:59:27.875: vmx| DICT        pref.mruDest7.user = 
+Aug 09 09:59:27.875: vmx| DICT      pref.mruATS0.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT    pref.mruATS0.atsString = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS0.domain = 
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS0.user = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS0.secure = FALSE
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS0.port = 0
+Aug 09 09:59:27.875: vmx| DICT      pref.mruATS1.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT    pref.mruATS1.atsString = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS1.domain = 
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS1.user = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS1.secure = FALSE
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS1.port = 0
+Aug 09 09:59:27.875: vmx| DICT      pref.mruATS2.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT    pref.mruATS2.atsString = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS2.domain = 
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS2.user = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS2.secure = FALSE
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS2.port = 0
+Aug 09 09:59:27.875: vmx| DICT      pref.mruATS3.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT    pref.mruATS3.atsString = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS3.domain = 
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS3.user = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS3.secure = FALSE
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS3.port = 0
+Aug 09 09:59:27.875: vmx| DICT      pref.mruATS4.present = FALSE
+Aug 09 09:59:27.875: vmx| DICT    pref.mruATS4.atsString = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS4.domain = 
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS4.user = 
+Aug 09 09:59:27.875: vmx| DICT       pref.mruATS4.secure = FALSE
+Aug 09 09:59:27.875: vmx| DICT         pref.mruATS4.port = 0
+Aug 09 09:59:27.890: vmx| DICT      pref.mruATS5.present = FALSE
+Aug 09 09:59:27.890: vmx| DICT    pref.mruATS5.atsString = 
+Aug 09 09:59:27.890: vmx| DICT       pref.mruATS5.domain = 
+Aug 09 09:59:27.890: vmx| DICT         pref.mruATS5.user = 
+Aug 09 09:59:27.890: vmx| DICT       pref.mruATS5.secure = FALSE
+Aug 09 09:59:27.890: vmx| DICT         pref.mruATS5.port = 0
+Aug 09 09:59:27.890: vmx| DICT      pref.mruATS6.present = FALSE
+Aug 09 09:59:27.890: vmx| DICT    pref.mruATS6.atsString = 
+Aug 09 09:59:27.890: vmx| DICT       pref.mruATS6.domain = 
+Aug 09 09:59:27.890: vmx| DICT         pref.mruATS6.user = 
+Aug 09 09:59:27.890: vmx| DICT       pref.mruATS6.secure = FALSE
+Aug 09 09:59:27.890: vmx| DICT         pref.mruATS6.port = 0
+Aug 09 09:59:27.890: vmx| DICT      pref.mruATS7.present = FALSE
+Aug 09 09:59:27.890: vmx| DICT    pref.mruATS7.atsString = 
+Aug 09 09:59:27.890: vmx| DICT       pref.mruATS7.domain = 
+Aug 09 09:59:27.890: vmx| DICT         pref.mruATS7.user = 
+Aug 09 09:59:27.890: vmx| DICT       pref.mruATS7.secure = FALSE
+Aug 09 09:59:27.890: vmx| DICT         pref.mruATS7.port = 0
+Aug 09 09:59:27.890: vmx| DICT   pref.registrationViewed = FALSE
+Aug 09 09:59:27.890: vmx| DICT       pref.usbDev.maxDevs = 0
+Aug 09 09:59:27.890: vmx| DICT pref.keyboardAndMouse.maxProfiles = 0
+Aug 09 09:59:27.890: vmx| DICT       webUpdate.failCount = 0
+Aug 09 09:59:27.890: vmx| DICT   webUpdate.lastCheckTime = 1375839899
+Aug 09 09:59:27.890: vmx| DICT             vmWizard.mode = custom
+Aug 09 09:59:27.890: vmx| DICT         vmWizard.guestKey = ubuntu
+Aug 09 09:59:27.890: vmx| DICT vmWizard.mruISO0.isoLocation = D:\company\download\ubuntu-10.04.3-desktop-i386.iso
+Aug 09 09:59:27.890: vmx| DICT vmWizard.installMediaType = iso
+Aug 09 09:59:27.890: vmx| DICT vmWizard.mruISO1.isoLocation = D:\company\download\ubuntu-12.04.2-desktop-i386.iso
+Aug 09 09:59:27.890: vmx| DICT  hint.vmui.showAllUSBDevs = FALSE
+Aug 09 09:59:27.890: vmx| DICT          pref.view.navBar = TRUE
+Aug 09 09:59:27.890: vmx| DICT    pref.view.navBar.width = 167
+Aug 09 09:59:27.890: vmx| DICT   pref.view.toolbars.list = _SEP_,POWER_OFF,SUSPEND,POWER_ON,RESET,POLICIES,PKG_SETTINGS,NEW_PKG,POCKET_ACE,PREVIEW,SNAPSHOT,REVERT,SNAPSHOT_MANAGER,FAVORITES,QUICK_SWITCH,FULL_SCREEN,UNITY,SUMMARY,APPLIANCE,CONSOLE,QUICK_MINIMIZE,FILE_EXIT,INSTANCE_DETAILS,INSTANCE_REACT,INSTANCE_DEACT,REPLAY_PLAY,REPLAY_RECORD
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.currentObj.path = /vm/#7887b9881274bab2/
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.currentObj.type = vm
+Aug 09 09:59:27.890: vmx| DICT pref.ws.openedObj0.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj0.name = Home
+Aug 09 09:59:27.890: vmx| DICT pref.ws.openedObj1.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj1.type = vm
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj1.path = /vm/#b6b544ffcbe35532/
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj1.file = F:\Ubuntu.vmx
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj1.name = Ubuntu
+Aug 09 09:59:27.890: vmx| DICT  pref.ws.openedObj.maxNum = 3
+Aug 09 09:59:27.890: vmx| DICT       pref.placement.left = -27
+Aug 09 09:59:27.890: vmx| DICT        pref.placement.top = -17
+Aug 09 09:59:27.890: vmx| DICT      pref.placement.right = 952
+Aug 09 09:59:27.890: vmx| DICT     pref.placement.bottom = 719
+Aug 09 09:59:27.890: vmx| DICT          pref.tip.startup = FALSE
+Aug 09 09:59:27.890: vmx| DICT            pref.tip.index = 1
+Aug 09 09:59:27.890: vmx| DICT webUpdate.updatesAvailable = TRUE
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.menu.position.ix = 0
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.menu.position.newLine = TRUE
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.power.position.ix = 5
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.power.position.newLine = TRUE
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.power.position.length = 100
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.snapshot.position.ix = 1
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.snapshot.position.length = 75
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.acem.position.ix = 2
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.acem.position.length = 123
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.view.position.ix = 3
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.view.position.length = 197
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.replay.position.ix = 4
+Aug 09 09:59:27.890: vmx| DICT pref.view.toolbars.replay.position.length = 1106
+Aug 09 09:59:27.890: vmx| DICT pref.ws.openedObj2.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj2.type = vm
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj2.path = /vm/#7887b9881274bab2/
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj2.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj2.name = Ubuntu
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj3.type = vm
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj3.path = /vm/#7887b9881274bab2/
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj3.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj3.name = Ubuntu
+Aug 09 09:59:27.890: vmx| DICT hint.cui.toolsInfoBar.Suppressible = FALSE
+Aug 09 09:59:27.890: vmx| DICT pref.ws.openedObj3.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj4.type = vm
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj4.path = /vm/#b6b544ffcbe35532/
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj4.file = F:\Ubuntu.vmx
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj4.name = Ubuntu
+Aug 09 09:59:27.890: vmx| DICT pref.autoFitGuestToWindow = TRUE
+Aug 09 09:59:27.890: vmx| DICT pref.snapshotManager.left = 250
+Aug 09 09:59:27.890: vmx| DICT  pref.snapshotManager.top = 64
+Aug 09 09:59:27.890: vmx| DICT pref.snapshotManager.right = 859
+Aug 09 09:59:27.890: vmx| DICT pref.snapshotManager.bottom = 578
+Aug 09 09:59:27.890: vmx| DICT  pref.sharedFolder.maxNum = 3
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder0.enabled = TRUE
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder0.vmPath = /vm/#7887b9881274bab2/
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder0.guestName = temp
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder0.hostPath = F:\temp
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder1.enabled = TRUE
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder1.vmPath = /vm/#7887b9881274bab2/
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder1.guestName = prgram-back
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder1.hostPath = E:\prgram-back
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj5.type = vm
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj5.path = /vm/#7887b9881274bab2/
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj5.file = H:\backup\tools\virtual_machine\Ubuntu.vmx
+Aug 09 09:59:27.890: vmx| DICT   pref.ws.openedObj5.name = Ubuntu
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder2.enabled = FALSE
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder2.vmPath = /vm/#b6b544ffcbe35532/
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder2.guestName = temp
+Aug 09 09:59:27.890: vmx| DICT pref.sharedFolder2.hostPath = F:\temp
+Aug 09 09:59:27.890: vmx| DICT --- USER DEFAULTS
+Aug 09 09:59:27.890: vmx| DICT --- HOST DEFAULTS
+Aug 09 09:59:27.890: vmx| DICT --- SITE DEFAULTS
+Aug 09 09:59:27.890: vmx| DICT --- COMMAND LINE
+Aug 09 09:59:27.890: vmx| DICT             gui.available = TRUE
+Aug 09 09:59:27.890: vmx| DICT              guestinfo.ip = unknown
+Aug 09 09:59:27.890: vmx| DICT --- CONFIGURATION
+Aug 09 09:59:27.890: vmx| DICT            config.version = 8
+Aug 09 09:59:27.890: vmx| DICT         virtualHW.version = 7
+Aug 09 09:59:27.890: vmx| DICT                  numvcpus = 2
+Aug 09 09:59:27.890: vmx| DICT             scsi0.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT          scsi0.virtualDev = lsilogic
+Aug 09 09:59:27.890: vmx| DICT                   memsize = 512
+Aug 09 09:59:27.890: vmx| DICT           scsi0:0.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT          scsi0:0.fileName = Ubuntu.vmdk
+Aug 09 09:59:27.890: vmx| DICT            ide1:0.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT           ide1:0.fileName = D:\company\download\ubuntu-10.04.3-desktop-i386.iso
+Aug 09 09:59:27.890: vmx| DICT         ide1:0.deviceType = cdrom-image
+Aug 09 09:59:27.890: vmx| DICT        floppy0.autodetect = TRUE
+Aug 09 09:59:27.890: vmx| DICT         ethernet0.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT  ethernet0.connectionType = nat
+Aug 09 09:59:27.890: vmx| DICT   ethernet0.wakeOnPcktRcv = FALSE
+Aug 09 09:59:27.890: vmx| DICT               usb.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT              ehci.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT             sound.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT            sound.fileName = -1
+Aug 09 09:59:27.890: vmx| DICT          sound.autodetect = TRUE
+Aug 09 09:59:27.890: vmx| DICT              mks.enable3d = TRUE
+Aug 09 09:59:27.890: vmx| DICT        pciBridge0.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT        pciBridge4.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT     pciBridge4.virtualDev = pcieRootPort
+Aug 09 09:59:27.890: vmx| DICT      pciBridge4.functions = 8
+Aug 09 09:59:27.890: vmx| DICT        pciBridge5.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT     pciBridge5.virtualDev = pcieRootPort
+Aug 09 09:59:27.890: vmx| DICT      pciBridge5.functions = 8
+Aug 09 09:59:27.890: vmx| DICT        pciBridge6.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT     pciBridge6.virtualDev = pcieRootPort
+Aug 09 09:59:27.890: vmx| DICT      pciBridge6.functions = 8
+Aug 09 09:59:27.890: vmx| DICT        pciBridge7.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT     pciBridge7.virtualDev = pcieRootPort
+Aug 09 09:59:27.890: vmx| DICT      pciBridge7.functions = 8
+Aug 09 09:59:27.890: vmx| DICT             vmci0.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT    roamingVM.exitBehavior = go
+Aug 09 09:59:27.890: vmx| DICT               displayName = Ubuntu
+Aug 09 09:59:27.890: vmx| DICT                   guestOS = ubuntu
+Aug 09 09:59:27.890: vmx| DICT                     nvram = Ubuntu.nvram
+Aug 09 09:59:27.890: vmx| DICT virtualHW.productCompatibility = hosted
+Aug 09 09:59:27.890: vmx| DICT     ft.secondary0.enabled = TRUE
+Aug 09 09:59:27.890: vmx| DICT      tools.upgrade.policy = useGlobal
+Aug 09 09:59:27.890: vmx| DICT        extendedConfigFile = Ubuntu.vmxf
+Aug 09 09:59:27.890: vmx| DICT          floppy0.fileName = A:
+Aug 09 09:59:27.890: vmx| DICT        checkpoint.vmState = 
+Aug 09 09:59:27.890: vmx| DICT     ide1:0.startConnected = TRUE
+Aug 09 09:59:27.890: vmx| DICT     ethernet0.addressType = generated
+Aug 09 09:59:27.890: vmx| DICT             uuid.location = 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:59:27.890: vmx| DICT                 uuid.bios = 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:59:27.890: vmx| DICT    debugStub.linuxOffsets = 0x0,0xffffffff,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0
+Aug 09 09:59:27.890: vmx| DICT              scsi0:0.redo = 
+Aug 09 09:59:27.890: vmx| DICT   usb.autoConnect.device0 = 
+Aug 09 09:59:27.890: vmx| DICT  vmotion.checkpointFBSize = 134217728
+Aug 09 09:59:27.890: vmx| DICT  pciBridge0.pciSlotNumber = 17
+Aug 09 09:59:27.890: vmx| DICT  pciBridge4.pciSlotNumber = 21
+Aug 09 09:59:27.890: vmx| DICT  pciBridge5.pciSlotNumber = 22
+Aug 09 09:59:27.890: vmx| DICT  pciBridge6.pciSlotNumber = 23
+Aug 09 09:59:27.890: vmx| DICT  pciBridge7.pciSlotNumber = 24
+Aug 09 09:59:27.890: vmx| DICT       scsi0.pciSlotNumber = 16
+Aug 09 09:59:27.890: vmx| DICT         usb.pciSlotNumber = 32
+Aug 09 09:59:27.890: vmx| DICT   ethernet0.pciSlotNumber = 33
+Aug 09 09:59:27.890: vmx| DICT       sound.pciSlotNumber = 34
+Aug 09 09:59:27.890: vmx| DICT        ehci.pciSlotNumber = 35
+Aug 09 09:59:27.890: vmx| DICT       vmci0.pciSlotNumber = 36
+Aug 09 09:59:27.890: vmx| DICT ethernet0.generatedAddress = 00:0c:29:fe:82:17
+Aug 09 09:59:27.890: vmx| DICT ethernet0.generatedAddressOffset = 0
+Aug 09 09:59:27.890: vmx| DICT                  vmci0.id = 452887063
+Aug 09 09:59:27.890: vmx| DICT       tools.remindInstall = FALSE
+Aug 09 09:59:27.890: vmx| DICT            tools.syncTime = FALSE
+Aug 09 09:59:27.890: vmx| DICT isolation.tools.hgfs.disable = FALSE
+Aug 09 09:59:27.890: vmx| DICT       sharedFolder.maxNum = 1
+Aug 09 09:59:27.890: vmx| DICT     sharedFolder0.present = TRUE
+Aug 09 09:59:27.890: vmx| DICT     sharedFolder0.enabled = TRUE
+Aug 09 09:59:27.890: vmx| DICT  sharedFolder0.readAccess = TRUE
+Aug 09 09:59:27.890: vmx| DICT sharedFolder0.writeAccess = TRUE
+Aug 09 09:59:27.890: vmx| DICT    sharedFolder0.hostPath = F:\temp
+Aug 09 09:59:27.890: vmx| DICT   sharedFolder0.guestName = temp
+Aug 09 09:59:27.890: vmx| DICT  sharedFolder0.expiration = never
+Aug 09 09:59:27.890: vmx| DICT --- USER DEFAULTS
+Aug 09 09:59:27.890: vmx| DICT --- HOST DEFAULTS
+Aug 09 09:59:27.890: vmx| DICT --- SITE DEFAULTS
+Aug 09 09:59:27.890: vmx| DICT --- GLOBAL SETTINGS
+Aug 09 09:59:27.890: vmx| MONITOR MODE: allowed modes          : BT
+Aug 09 09:59:27.890: vmx| MONITOR MODE: user requested modes   : BT HV HWMMU
+Aug 09 09:59:27.890: vmx| MONITOR MODE: guestOS preferred modes: HWMMU BT HV
+Aug 09 09:59:27.890: vmx| MONITOR MODE: filtered list          : BT
+Aug 09 09:59:27.890: vmx| HV Settings: virtual exec = 'software'; virtual mmu = 'software'
+Aug 09 09:59:27.937: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 09:59:27.937: vmx| Host display topology 1024x768.
+Aug 09 09:59:27.937: vmx| SVGA using 2360x1770.
+Aug 09 09:59:27.937: vmx| WSSCAN: reserved mem (in MB) min=32 max=832 recommended=832
+Aug 09 09:59:27.937: vmx| WSSCAN: used rec mem (in MB) 832
+Aug 09 09:59:27.937: vmx| PSHARE: scan rate min 16 max 400
+Aug 09 09:59:27.937: vmx| WSSCAN: Overhead 165174 paged 27158 nonpaged 32768 maxFBSize
+Aug 09 09:59:28.000: vmx| WSSCAN 1 1 171502 179694 212992 245355 50 0
+Aug 09 09:59:28.015: vmx| LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.6.0.200907' 
+Aug 09 09:59:28.046: vmx| Monitor_PowerOn: hostedVSMPMaxSkew is 1500 us (2400030 cycles)
+Aug 09 09:59:28.046: vmx| Monitor_PowerOn: hostedVSMPYieldPoint is 50 us (80001 cycles)
+Aug 09 09:59:28.046: vmx| vmm32-modules: [vmm.vmm32 .data:0x2b000-0x728 .sdata:0x2c000-0x4e4 .statvars:0x2d000-0x3a0 .peer:0x2e000-0x261c0 .shared:0x56000-0x12ac0 .bss:0x6a000-0x5c88 .rodata:0x71000-0xb310 .text:0x7d000-0x5906d .kstatvars:0x3000-0x0, mmu-pae.vmm32 .rodata:0x7c310-0x44 .data:0x2b728-0xc .peer:0x541c0-0x16c0 .shared:0x68ac0-0x2c0 .bss:0x6fca0-0x518 .text:0xd6070-0xa4e7 .comment:0x40000d26-0x10e .statvars:0x2000-0x0 .kstatvars:0x2000-0x0 .scb:0x400038a0-0x180 .shared_meta:0x40003c00-0x390 .peer_meta:0x40001020-0x210, sharedmmu-none.vmm32 .text:0xe0558-0x32 .comment:0x40000e34-0x12, pv-none.vmm32 .shared:0x68d80-0x180 .bss:0x701c0-0x84 .text:0xe058c-0xe6 .comment:0x40000e46-0x48 .shared_meta:0x40003f90-0x90, vprobe-none.vmm32 .text:0xe0674-0x79 .comment:0x40000e8e-0x12, hv-none.vmm32 .rodata:0x7c354-0x4 .data:0x1000-0x0 .peer:0x1000-0x0 .shared:0x1000-0x0 .bss:0x1000-0x0 .text:0xe06f0-0x2d .comment:0x40000ea0-0x12 .statvars:0x1000-0x0 .kstatvars:0x1000-0x0, gphys-sw.vmm32 .peer:0x55880-0x40 .shared:0x68f00-0x140 .bss:0x2000-0x0 .text:0xe0720-0xb43 .comment:0x40000eb2-0x12 .scb:0x40003a20-0x60 .shared_meta:0x40004020-0x2a0 .peer_meta:0x40001230-0x60, vassert-none.vmm32 .text:0xe1264-0xf .comment:0x40000ec4-0x12, vmsafe-none.vmm32 .text:0xe1274-0xd .comment:0x40000ed6-0x12, <MonSrcFile> .rodata:0x7c358-0x36c]
+Aug 09 09:59:28.062: vmx| KHZEstimate 1600020
+Aug 09 09:59:28.062: vmx| MHZEstimate 1600
+Aug 09 09:59:28.062: vmx| NumVCPUs 2
+Aug 09 09:59:28.109: vmx| PShare: enabled 1, scanRate 32, checkRate 16
+Aug 09 09:59:28.109: vmx| UUID: location-UUID is 56 4d 26 71 5f a3 44 47-22 d4 31 7b c5 d7 dd 5b
+Aug 09 09:59:28.109: vmx| UUID: location-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:59:28.109: vmx| UUID: location-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:59:28.109: vmx| AIOGNRC: numThreads=18 ide=0, scsi=1, passthru=1
+Aug 09 09:59:28.109: vmx| WORKER: Creating new group with numThreads=18 (18)
+Aug 09 09:59:28.109: vmx| Replay State = 0
+Aug 09 09:59:28.109: vmx| minDEThreshold: 70
+Aug 09 09:59:28.109: vmx| MM: Using partialmap, 131072 pages AC 0 CE 1 TM 0 DOHU 0
+Aug 09 09:59:28.109: vmx| UUID: location-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 09:59:28.125: vmx| MM: using 'F:\564d72a5-6629-defd-87ec-fee81afe8217.vmem' as a paging file
+Aug 09 09:59:28.125: vmx| Opened paging file F:\564d72a5-6629-defd-87ec-fee81afe8217.vmem
+Aug 09 09:59:28.156: vmx| Mapped mainmem as pageable
+Aug 09 09:59:28.156: vmx| MMCHK: Disabling checks which are not forced, cannot do checks on certain processors.
+Aug 09 09:59:28.156: vmx| MStat: Creating Stat vm.uptime
+Aug 09 09:59:28.156: vmx| MStat: Creating Stat vm.suspendTime
+Aug 09 09:59:28.156: vmx| MStat: Creating Stat vm.powerOnTimeStamp
+Aug 09 09:59:28.156: vmx| VMXAIOMGR: Using: simple=Generic unbuf=Compl
+Aug 09 09:59:28.171: vmx| VMXVmdb_LoadRawConfig: Loading raw config
+Aug 09 09:59:28.187: vmx| DISK: OPEN scsi0:0 'F:\Ubuntu.vmdk' persistent R[]
+Aug 09 09:59:28.421: vmx| DISKLIB-DSCPTR: Opened [0]: "Ubuntu.vmdk" (0xa)
+Aug 09 09:59:28.421: vmx| DISKLIB-LINK  : Opened 'F:\Ubuntu.vmdk' (0xa): monolithicSparse, 62914560 sectors / 30 GB.
+Aug 09 09:59:28.421: vmx| DISKLIB-LIB   : Opened "F:\Ubuntu.vmdk" (flags 0xa).
+Aug 09 09:59:28.421: vmx| DiskGetGeometry: Reading of disk partition table
+Aug 09 09:59:28.421: vmx| DISK: OPEN 'F:\Ubuntu.vmdk' Geo (3916/255/63) BIOS Geo (3916/255/63) freeSpace=27032 MB, lsilogic
+Aug 09 09:59:28.453: vmx| TimeTracker host to guest rate conversion 9738434806768 @ 1600020000Hz -> 9738434806768 @ 1600020000Hz
+Aug 09 09:59:28.453: vmx| TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + 0
+Aug 09 09:59:28.468: vmx| USB: Initializing 'Generic' backend
+Aug 09 09:59:28.468: vmx| USBGW: Connected to HCMON version 3.0
+Aug 09 09:59:28.468: vmx| USB: Initializing 'Virtual Hub' backend
+Aug 09 09:59:28.468: vmx| USB: Initializing 'Virtual Mouse' backend
+Aug 09 09:59:28.468: vmx| USB: Initializing 'Virtual Keyboard' backend
+Aug 09 09:59:28.468: vmx| USB: Initializing 'Virtual Mass Storage' backend
+Aug 09 09:59:28.468: vmx| USB: Initializing 'Virtual CCID' backend
+Aug 09 09:59:28.468: usbCCIDEnumCards| USB-CCID: Card enum thread created.
+Aug 09 09:59:28.468: vmx| WORKER: Creating new group with numThreads=1 (19)
+Aug 09 09:59:28.515: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.vmx).
+Aug 09 09:59:28.515: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.vmdk).
+Aug 09 09:59:28.515: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.vmsd).
+Aug 09 09:59:28.515: vmx| USBGW: Skipping disk backing for file (F:\Ubuntu.nvram).
+Aug 09 09:59:28.562: vmx| Host display topology 1024x768.
+Aug 09 09:59:28.562: vmx| SVGA using 2360x1770.
+Aug 09 09:59:28.593: vmx| WORKER: Creating new group with numThreads=1 (20)
+Aug 09 09:59:28.593: vmx| MKS REMOTE Loading VNC Configuration from VM config file
+Aug 09 09:59:28.609: vmx| VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+Aug 09 09:59:28.609: vmx| VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+Aug 09 09:59:28.609: vmx| NetPkt: checksum cycles/kB: C=70 asm1=686 asm2=680
+Aug 09 09:59:28.609: vmx| NetPkt: copy and sum cycles/kB: C=1415 asm1=679 asm2=680
+Aug 09 09:59:28.625: vmx| Chipset version: 0x13
+Aug 09 09:59:28.656: vmx| DISKUTIL: ide1:0 : capacity=0
+Aug 09 09:59:28.656: vmx| DISKUTIL: ide1:0 : geometry=0/0/0
+Aug 09 09:59:28.656: vmx| SCSI0: UNTAGGED commands will be converted to ORDER tags.
+Aug 09 09:59:28.656: vmx| DISKUTIL: scsi0:0 : capacity=62914560
+Aug 09 09:59:28.656: vmx| DISKUTIL: scsi0:0 : geometry=3916/255/63
+Aug 09 09:59:28.656: vmx| SVGA: Advertising 3D acceleration.
+Aug 09 09:59:28.656: vmx| Host display topology 1024x768 with 1 displays.
+Aug 09 09:59:28.656: vmx| SVGA using 2360x1770.
+Aug 09 09:59:28.656: vmx| USB: Initializing 'UHCI' host controller
+Aug 09 09:59:28.656: vmx| Ethernet0 MAC Address: 00:0c:29:fe:82:17
+Aug 09 09:59:28.671: vmx| USB: Initializing 'EHCI' host controller
+Aug 09 09:59:28.687: vmx| MStat: Creating Stat vm.heartbeat
+Aug 09 09:59:28.687: vmx| TOOLS INSTALL initializing state to IDLE on power on.
+Aug 09 09:59:28.687: vmx| PTSC to VMI Wallclock (nsec) 9738797035080 @ 1600020000Hz -> 1376013568000000000 @ 1000000000Hz
+Aug 09 09:59:28.687: vmx| PTSC to VMI Wallclock (nsec) ((x * 2684321005) >> 32) + 1376007481327938715
+Aug 09 09:59:28.687: vmx| PTSC to ParaTime RealCycles 0 @ 1600020000Hz -> 0 @ 1600020000Hz
+Aug 09 09:59:28.687: vmx| PTSC to ParaTime RealCycles ((x * 1) >> 0) + 0
+Aug 09 09:59:28.687: vmx| ParaTime RealCycles to PTSC 0 @ 1600020000Hz -> 0 @ 1600020000Hz
+Aug 09 09:59:28.687: vmx| ParaTime RealCycles to PTSC ((x * 1) >> 0) + 0
+Aug 09 09:59:28.687: vmx| memoryHotplug: Current size = 512MB, Minimum size = 512MB, Maximum size = 512MB
+Aug 09 09:59:28.687: vmx| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Aug 09 09:59:28.687: vmx| memoryHotplug: Entry[1]: 00000000001000A0-0000000020000000
+Aug 09 09:59:28.687: vmx| guestCpuFeatures = 0x404001f8
+Aug 09 09:59:28.687: vmx| guestCPUID vendor: GenuntelineI
+Aug 09 09:59:28.687: vmx| guestCPUID   name: Intel(R) Pentium(R) Dual  CPU  E2140  @ 1.60GHz
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000000, 0: 0x0000000a 0x756e6547 0x6c65746e 0x49656e69
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000001, 0: 0x000006fd 0x00010800 0x80000201 0x0febfbff
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43078
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000220
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000006, 0: 0x00000001 0x00000002 0x00000001 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+Aug 09 09:59:28.687: vmx| guestCPUID level 40000000, 0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+Aug 09 09:59:28.687: vmx| guestCPUID level 40000010, 0: 0x00186a14 0x000101d0 0x00000000 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000000 0x00100000
+Aug 09 09:59:28.687: vmx| guestCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x6e655020 0x6d756974
+Aug 09 09:59:28.687: vmx| guestCPUID level 80000003, 0: 0x20295228 0x6c617544 0x50432020 0x45202055
+Aug 09 09:59:28.687: vmx| guestCPUID level 80000004, 0: 0x30343132 0x20402020 0x30362e31 0x007a4847
+Aug 09 09:59:28.687: vmx| guestCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 80000006, 0: 0x00000000 0x00000000 0x04004040 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+Aug 09 09:59:28.687: vmx| guestCPUID level 80000008, 0: 0x00003028 0x00000000 0x00000000 0x00000000
+Aug 09 09:59:28.718: vmx| BusMemSample: initPercent 75 touched 98304
+Aug 09 09:59:28.718: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '1'
+Aug 09 09:59:28.718: vmx| TOOLS received request in VMX to set option 'copypaste' -> '1'
+Aug 09 09:59:28.765: vmx| VMXVmdbLoadUsbDevices: New set of 0 USB devices
+Aug 09 09:59:28.765: vmx| VMX_PowerOn: ModuleTable_PowerOn = 1
+Aug 09 09:59:28.765: vmx| VMX setting maximum IPC write buffers to 0 packets, 0 bytes
+Aug 09 09:59:28.765: mks| Async MKS thread is alive
+Aug 09 09:59:28.859: vmx| DnDRegisterRpc: DnD rpc already set to 1
+Aug 09 09:59:28.859: vmx| CopyPasteRegisterRpc: already set to 1
+Aug 09 09:59:28.859: vcpu-0| APIC: version = 0x14, max LVT = 5
+Aug 09 09:59:28.859: vcpu-0| APIC: LDR = 0x1000000, DFR = 0xffffffff
+Aug 09 09:59:28.921: vcpu-0| guestCpuFeatures = 0x404001f8
+Aug 09 09:59:28.921: vcpu-0| CPU reset: hard
+Aug 09 09:59:28.921: vcpu-0| memoryHotplug: Entry[0]: 00000000000000A0-00000000000A0000
+Aug 09 09:59:28.921: vcpu-0| memoryHotplug: Entry[1]: 00000000001000A0-0000000020000000
+Aug 09 09:59:28.968: vcpu-0| SOUND 991.377155 PCISoundWin32 mixerGetLineInfo error 11
+Aug 09 09:59:28.968: vcpu-0| VNET: Notification enabled for Ethernet0
+Aug 09 09:59:28.968: vcpu-0| FLOPPYLIB-MAIN : Using autodetect backend A: for floppy0.
+Aug 09 10:00:56.312: vcpu-0| CDROM: Connecting ide1:0 to 'D:\company\download\ubuntu-10.04.3-desktop-i386.iso'. img=1 raw=0 remote=0
+Aug 09 10:00:56.328: vcpu-0| Transitioned vmx/execState/val to poweredOn
+Aug 09 10:00:56.328: vmx| VMXVmdbLoadUsbDevices: New set of 5 USB devices
+Aug 09 10:00:56.328: vmx| USB: Found device [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage]
+Aug 09 10:00:56.328: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:00:56.328: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:00:56.328: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:00:56.328: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:00:56.390: mks| MKSHostOps_Exit3D: 0, 1
+Aug 09 10:00:56.390: mks| Connecting to window system.
+Aug 09 10:00:56.531: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 10:00:56.546: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 10:00:56.625: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 10:00:56.687: vcpu-0| sz=2992080
+Aug 09 10:00:56.703: vcpu-1| APIC: version = 0x14, max LVT = 5
+Aug 09 10:00:56.703: vcpu-1| APIC: LDR = 0x2000000, DFR = 0xffffffff
+Aug 09 10:00:56.781: vcpu-1| guestCpuFeatures = 0x404001f8
+Aug 09 10:00:56.796: vcpu-1| CPU reset: hard
+Aug 09 10:00:56.859: vcpu-1| sz=2994144
+Aug 09 10:00:56.859: vcpu-0| vmm32 initialized: Releasebuild-126130. cflags: 0x00000008.00040280.03418084.00002800
+Aug 09 10:00:56.875: vcpu-1| vmm32 initialized: Releasebuild-126130. cflags: 0x00000008.00040280.03418084.00002800
+Aug 09 10:00:56.968: vcpu-0| MonitorInitNumaUnmapVMM32
+Aug 09 10:00:57.265: vcpu-1| CPU reset: soft
+Aug 09 10:00:57.796: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0x0) and 0xd8000000(0x0)
+Aug 09 10:00:57.796: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 10:00:58.046: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 10:00:58.062: vcpu-0| SVGA: Unregistering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 10:00:58.093: vcpu-0| SVGA: Registering IOSpace at 0x10d0
+Aug 09 10:00:58.109: vcpu-0| SVGA: Registering MemSpace at 0xd0000000(0xd0000000) and 0xd8000000(0xd8000000)
+Aug 09 10:00:58.109: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.109: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.109: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.109: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.109: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.125: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.125: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.125: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.125: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.125: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.125: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.125: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.125: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.125: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.140: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.156: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.156: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.156: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.156: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.156: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.156: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.156: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.156: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.171: vcpu-1| CPU reset: soft
+Aug 09 10:00:58.203: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 10:00:58.281: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 10:00:58.453: vcpu-0| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.453: vcpu-0| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.468: vcpu-0| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.484: vcpu-0| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.484: vcpu-0| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.484: vcpu-0| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.484: vcpu-0| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.484: vcpu-0| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.484: vcpu-0| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.484: vcpu-0| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.484: vcpu-0| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.484: vcpu-0| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.500: vcpu-0| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.500: vcpu-0| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.500: vcpu-0| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.500: vcpu-0| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.500: vcpu-0| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.500: vcpu-0| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.500: vcpu-0| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.500: vcpu-0| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.515: vcpu-0| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.515: vcpu-0| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.515: vcpu-0| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:00:58.531: vcpu-0| DISKUTIL: scsi0:0 : geometry=3916/255/63
+Aug 09 10:00:58.531: vcpu-0| SCSI0: RESET BUS
+Aug 09 10:00:58.593: vcpu-1| CPU reset: soft
+Aug 09 10:00:58.640: vcpu-0| BIOS-UUID is 56 4d 72 a5 66 29 de fd-87 ec fe e8 1a fe 82 17
+Aug 09 10:00:59.109: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 10:01:03.687: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:03.687: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:03.703: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:03.703: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:03.703: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:03.718: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:03.718: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:03.734: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:03.734: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:03.750: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:08.312: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:08.328: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:10.828: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 10:01:11.578: vcpu-1| CPU reset: soft
+Aug 09 10:01:12.015: vcpu-1| SVGA: Unregistering IOSpace at 0x10d0
+Aug 09 10:01:12.015: vcpu-1| SVGA: Registering IOSpace at 0xfffffff0
+Aug 09 10:01:12.015: vcpu-1| SVGA: Unregistering IOSpace at 0xfffffff0
+Aug 09 10:01:12.015: vcpu-1| SVGA: Registering IOSpace at 0x10d0
+Aug 09 10:01:12.078: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.078: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.093: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.109: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.765: vcpu-1| pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+Aug 09 10:01:12.781: vcpu-1| UHCI: HCReset
+Aug 09 10:01:13.093: vcpu-1| UHCI: HCReset
+Aug 09 10:01:13.234: mks| SVGA: display status changed, using optimizations for local consoles.
+Aug 09 10:01:14.312: vcpu-0| CDROM ide1:0: CMD 0x52 (*UNKNOWN (0x52)*) FAILED (key 0x5 asc 0x20 ascq 0)
+Aug 09 10:01:14.812: vcpu-1| SCSI0: RESET BUS
+Aug 09 10:01:15.203: vcpu-1| SCSI0: RESET BUS
+Aug 09 10:01:15.250: vcpu-1| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Aug 09 10:01:15.250: vcpu-1| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Aug 09 10:01:15.265: vcpu-1| SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+Aug 09 10:01:15.265: vcpu-0| SCSI DEVICE (scsi0:0): INQUIRY request with EVPD set
+Aug 09 10:01:32.140: vcpu-1| SCSI DEVICE (scsi0:0): INQUIRY request with EVPD set
+Aug 09 10:01:32.875: vcpu-1| VIDE: Truncating 0x46 from 65530 bytes to 32768
+Aug 09 10:01:32.875: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 10:01:33.125: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 10:01:33.734: vcpu-0| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 10:01:33.875: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 10:01:33.875: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 10:01:33.875: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 10:01:33.875: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 10:01:33.875: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 10:01:33.875: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 10:01:33.906: vcpu-1| VMMouse: CMD Read ID
+Aug 09 10:01:33.906: vcpu-1| VMMouse: CMD Disable
+Aug 09 10:01:33.906: vcpu-1| VMMouse: Disabling VMMouse mode
+Aug 09 10:01:33.921: vcpu-0| VMMouse: CMD Read ID
+Aug 09 10:01:33.953: vcpu-0| VMMouse: CMD Disable
+Aug 09 10:01:33.953: vcpu-0| VMMouse: Disabling VMMouse mode
+Aug 09 10:01:34.125: mks| Ignoring update request in VGA_Expose (mode change pending).
+Aug 09 10:01:35.718: vcpu-0| SOUND 118.094036 PCISoundWin32 mixerGetLineInfo error 11
+Aug 09 10:01:38.671: mks| SVGA: enabling escape command
+Aug 09 10:01:38.875: vcpu-0| Guest OS = 0x5008
+Aug 09 10:01:38.937: mks| HostOps hideCursor before defineCursor!
+Aug 09 10:01:39.015: vcpu-0| Guest display topology changed: numDisplays 1
+Aug 09 10:01:39.953: vcpu-0| VMMouse: CMD Read ID
+Aug 09 10:01:39.953: vcpu-0| VMMouse: CMD Disable
+Aug 09 10:01:39.953: vcpu-0| VMMouse: Disabling VMMouse mode
+Aug 09 10:01:40.015: vcpu-0| VMMouse: CMD Read ID
+Aug 09 10:01:45.875: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 10:01:45.875: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 10:01:45.875: vcpu-1| SCSI DEVICE (scsi0:0): No transfer information for *UNKNOWN (0x85)* (0x85)
+Aug 09 10:01:45.875: vcpu-1| SCSI (scsi0:0): SCSI-3 16-byte CDB format not supported (LUN 0).
+Aug 09 10:01:56.796: vcpu-1| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:56.796: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:56.812: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:56.812: vcpu-0| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:01:57.000: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 10:01:57.031: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 1 start feature 0
+Aug 09 10:02:02.328: vcpu-1| FLOPPYLIB-LIB  : Win32Ioctl: syserror The device is not ready.
+Aug 09 10:02:02.984: vcpu-1| GuestRpc: Channel 0, guest application toolbox.
+Aug 09 10:02:02.984: vcpu-1| TOOLS autoupgrade protocol version 2
+Aug 09 10:02:03.062: vcpu-1| TOOLS ToolsCapabilityGuestTempDirectory received 1 /tmp/vmware-root
+Aug 09 10:02:03.062: vcpu-1| TOOLS ToolsCapabilityGuestConfDirectory received /etc/vmware-tools
+Aug 09 10:02:03.062: vcpu-1| TOOLS setting the tools version to '7428'
+Aug 09 10:02:03.093: vcpu-1| TOOLS soft reset detected.
+Aug 09 10:02:03.093: vcpu-1| TOOLS Setting autoupgrade-checked FALSE.
+Aug 09 10:02:03.125: vcpu-1| Guest: toolbox: Version: build-126130
+Aug 09 10:02:03.140: vcpu-1| TOOLS unified loop capability requested by 'toolbox'; now sending options via TCLO
+Aug 09 10:02:04.000: vcpu-1| Compared tools manifest from host and from the guest. Status = 2.
+Aug 09 10:02:04.000: vcpu-1| TOOLS installed legacy version 7428, available legacy version 7428
+Aug 09 10:02:04.000: vcpu-1| TOOLS manifest update status is 2 (1-out of date, 2-ok, 3-unknown)
+Aug 09 10:02:04.000: vcpu-1| TOOLS will not be autoupgraded.
+Aug 09 10:02:04.000: vcpu-1| TOOLS Setting autoupgrade-checked TRUE.
+Aug 09 10:02:11.656: vcpu-0| VMMouse: CMD Received 0x53424152 with 4 words of unread data!
+Aug 09 10:02:11.656: mks| MKS switching absolute mouse on
+Aug 09 10:02:35.109: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 10:02:35.109: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 40
+Aug 09 10:02:35.109: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 32
+Aug 09 10:02:35.109: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 10:02:35.203: vcpu-1| CDROM: Emulate GET CONFIGURATION RT 0 start feature 0
+Aug 09 10:10:32.187: vmx| USB: Connecting device 0x40000010480a006
+Aug 09 10:10:32.203: vmx| Msg_Hint: msg.usb.generic.stopDevice (sent)
+Aug 09 10:10:32.203: vmx| A USB device is about to be unplugged from the host and connected to this virtual machine. It will first be stopped to enable safe removal. With some devices, the host may display the message "The device can now safely be removed."
+Aug 09 10:10:32.203: vmx| ---------------------------------------
+Aug 09 10:10:39.984: vmx| Msg_Post: Error
+Aug 09 10:10:39.984: vmx| [msg.usb.generic.devicebusy] The host is currently using the device "Toshiba External USB 3.0". Close applications that might be accessing the device, then try connecting it again.
+Aug 09 10:10:39.984: vmx| ----------------------------------------
+Aug 09 10:10:59.312: vmx| USB: Connecting device 0x40000010480a006
+Aug 09 10:10:59.312: vmx| Msg_Hint: msg.usb.generic.stopDevice (sent)
+Aug 09 10:10:59.312: vmx| A USB device is about to be unplugged from the host and connected to this virtual machine. It will first be stopped to enable safe removal. With some devices, the host may display the message "The device can now safely be removed."
+Aug 09 10:10:59.312: vmx| ---------------------------------------
+Aug 09 10:11:02.562: vmx| VMXVmdbLoadUsbDevices: New set of 4 USB devices
+Aug 09 10:11:02.562: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:11:02.562: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:11:02.562: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:11:02.562: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:11:04.953: vmx| USBG: CONNREQ: Dequeued head request after 5621 ms for [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage]
+Aug 09 10:11:04.953: vmx| USB: Adding autoconnect pattern [path:1/4/1 autoclean:1] in slot 0
+Aug 09 10:11:05.000: vmx| USB: Device [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage] should already be connected
+Aug 09 10:11:05.000: vmx| VMXVmdbLoadUsbDevices: New set of 5 USB devices
+Aug 09 10:11:05.000: vmx| USB: Found device [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage]
+Aug 09 10:11:05.000: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:11:05.000: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:11:05.000: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:11:05.000: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 10:11:05.046: vcpu-0| USBG warning: can't reset port usbioerr 'NOT_CONFIGURED'
+Aug 09 10:11:05.171: vcpu-0| USBG warning: can't reset port usbioerr 'NOT_CONFIGURED'
+Aug 09 10:11:05.375: vmx| USBIO: Detect usb-storage class
+Aug 09 10:11:07.375: vmx| USB: Device [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage] should already be connected
+Aug 09 12:22:14.484: vmx| USB: Removing autoconnect pattern from slot 0
+Aug 09 12:22:15.109: vmx| USB: Disconnecting device 0x40000010480a006
+Aug 09 12:22:15.406: vmx| VMXVmdbLoadUsbDevices: New set of 5 USB devices
+Aug 09 12:22:15.406: vmx| USB: Found device [name:Toshiba\ External\ USB\ 3.0 vid:0480 pid:a006 path:1/4/1 speed:high family:storage]
+Aug 09 12:22:15.406: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 12:22:15.406: vmx| USB: Found device [name:Virtual\ FT\ SCR2000\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 12:22:15.406: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 0 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 12:22:15.406: vmx| USB: Found device [name:Virtual\ FT\ SCR2000B\ 1 vid:0e0f pid:0004 speed:full family:smart-card deviceType:virtual]
+Aug 09 12:22:39.000: vmx| VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOff without reset
+Aug 09 12:22:39.140: vmx| Stopping VCPU threads...
+Aug 09 12:22:39.578: mks| Detaching from window system.
+Aug 09 12:22:39.812: mks| MKSHostOps_Exit3D: 1, 0
+Aug 09 12:22:39.812: mks| Async MKS thread is exiting
+Aug 09 12:22:40.109: vmx| TOOLS received request in VMX to set option 'enableDnD' -> '0'
+Aug 09 12:22:40.140: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Aug 09 12:22:40.140: vmx| TOOLS received request in VMX to set option 'copypaste' -> '0'
+Aug 09 12:22:41.515: vmx| MKS local poweroff
+Aug 09 12:22:41.578: usbCCIDEnumCards| USB-CCID: Card enum thread exiting.
+Aug 09 12:22:41.984: vmx| scsi0:0: numIOs = 15685 numMergedIOs = 1009 numSplitIOs = 117 (10.4%)
+Aug 09 12:22:43.515: vmx| AIOWIN32C: asyncOps=14366 syncOps=128 bufSize=4Kb fixedOps=5 sgOps=14310 sgOn=1
+Aug 09 12:22:43.515: aioCompletion| AIO thread processed 14366 completions
+Aug 09 12:22:43.687: vmx| WORKER: asyncOps=69 maxActiveOps=1 maxPending=0 maxCompleted=0
+Aug 09 12:22:44.234: vmx| Transitioned vmx/execState/val to poweredOff
+Aug 09 12:22:46.140: vmx| vmdbPipe_Streams: Couldn't read
+Aug 09 12:22:46.171: vmx| VMX idle exit
+Aug 09 12:22:46.500: vmx| Flushing VMX VMDB connections
+Aug 09 12:22:46.500: vmx| IPC_exit: disconnecting all threads
+Aug 09 12:22:46.500: vmx| VMX exit (0).
+Aug 09 12:22:46.562: vmx| AIOMGR-S : stat o=6 r=18 w=0 i=0 br=76800 bw=0
